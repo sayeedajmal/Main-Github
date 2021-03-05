@@ -23,6 +23,7 @@
     border-radius: 50%;
     height: 300px;
     width: 300px;
+    margin-top: px;
     margin-left: 35%;
     transform: rotate(20deg);
 }
