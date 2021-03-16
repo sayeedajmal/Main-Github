@@ -1,3 +1,7 @@
+.body{
+    background-image: linear-gradient(to bottom, #FFAFBD, #ffc3a0);
+    height: 250ch;
+}
 .box {
     width: 700px;
     height: 1000px;
