@@ -1,5 +1,6 @@
 .body{
     background-color: rgb(45, 108, 243);
+    display: flex;
 }
 .box {
     width: 700px;
@@ -23,10 +24,13 @@
 }
 
 .avatar {
+    display: flex;
     border-radius: 50%;
     height: 300px;
     width: 300px;
-    margin-top: px;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: center;
     margin-left: 35%;
     transform: rotate(20deg);
 }
@@ -35,6 +39,7 @@
     border-radius: 50%;
     position: static;
     color: white;
+    display: inline-block;
     margin-top: 50px;
     margin-left: 60px;
 }
