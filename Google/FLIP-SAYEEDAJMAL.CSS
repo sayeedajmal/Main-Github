@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: #333;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card{
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+}
+.front,.back{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front img{
+    height: 100%;
+}
+.back{
+    background: #f1f1ff;
+    transform: perspective()
+}
+.front{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back{
+    background: #f1f1ff;
+    transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+}
