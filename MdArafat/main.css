@@ -1,53 +1,51 @@
 .body {
-    display: contents;
-    
-  }
-  .box {
-    width: 700px;
-    height: 1000px;
-    background: rgb(45, 108, 243);
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
-    font-family: "Georgia";
-  }
+  display: contents;
   
-  .text {
-    text-align: center;
-    color: rgb(255, 0, 0);
-    font-size: 50px;
-  }
-  
-  .avatar {
-    margin-top: 100px;
-    border-radius: 50%;
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transform: rotate(18deg);
-  }
-  
-  .image {
-    border-radius: 50%;
-    position: static;
-    color: white;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 60px;
-  }
-  
-  .links {
-    border-radius: 50%;
-    position: static;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    padding-top: 10px;
-    padding-left: 38px;
-    font-size: 30px;
-    margin-top: 50px;
-    text-align: center;
-    font-family: "Fira Code Medium", "Times New Roman", "Georgia Bold";
-    font-size: 50px;
-  }
-  
+}
+.box {
+  width: 700px;
+  height: 1000px;
+  background: rgb(45, 108, 243);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  font-family: "Georgia";
+}
+
+.text {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+}
+
+.avatar {
+  margin-top: 100px;
+  border-radius: 50%;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  border-radius: 50%;
+  position: static;
+  color: white;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.links {
+  border-radius: 50%;
+  position: static;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 38px;
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Fira Code Medium", "Times New Roman", "Georgia Bold";
+  font-size: 50px;
+}
