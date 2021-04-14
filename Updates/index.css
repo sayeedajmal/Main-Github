@@ -1,5 +1,5 @@
 .body {
-  background-color: #252121;
+  background-color: #494545;
   transition: background-color 0.3s;
 }
 .avatar {
@@ -39,7 +39,8 @@
   margin-right: auto;
   margin-left: auto;
   border-radius: 2px;
-  outline: none;
+  border-color: red;
+  outline: auto;
   background-color: white;
   border: none;
   font-family: "Fira Code Bold";
@@ -58,7 +59,7 @@
   cursor: pointer;
   width: 80px;
   left: 90%;
-  top: 9px;
+  top: 20px;
   height: 30px;
   border-radius: 50px;
   background-color: #362f2f;
@@ -80,41 +81,30 @@
   transform: translate(-100%);
 }
 .checkbox:checked + .switch {
-  background-color: #ffffff;
+  background-color: #1c60f3;
 }
-/* MENU */
 .menu {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 20%;
   position: fixed;
-  top: 9px;
-  left: 10%;
+  text-align-last: center;
 }
-button {
+.java,
+.python,
+.javafx,
+.advancejava {
+  position: static;
+  display: inline-table;
   outline: none;
-  border: none;
-  width: 100px;
-  height: 30px;
-  background-color: #f78821;
-}
-.dropdown > div {
-  margin: 5px 0px;
-  padding: 5px;
-}
-.dropdown {
-  background-color: #f78821;
-  border-radius: 10px;
+  border-color: black;
+  border-radius: 6px;
+  height: 20vh;
+  cursor: pointer;
   color: white;
-  z-index: 10;
+  font-family: "Georgia";
+  font-size: 20px;
+  background-color: rgb(4, 142, 255);
   width: 100px;
-  max-height: 30px;
-  top: 8px;
-  overflow: hidden;
-  position: relative;
-  transition: all 0.4s;
-  opacity: 0px;
-}
-.dropdown.active{
-  opacity: 100%;
-  top: calc(100% + 10px);
-  width: 30px;
-  max-height: fit-content;
 }
