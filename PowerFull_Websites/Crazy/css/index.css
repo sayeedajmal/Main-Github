@@ -1,0 +1,120 @@
+.root {
+  background-color: rgba(3, 43, 77, 0.856);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: fit-content;
+  width: fit-content;
+}
+.body {
+  display: block;
+  position: static;
+  width: auto;
+  height: auto;
+}
+.container {
+  background-color: rgba(13, 184, 236, 0.767);
+  height: 60vh;
+  width: 8cm;
+  margin-top: 13vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  left: calc(50% - 50px);
+  border-radius: 25px;
+  border-color: red;
+  box-shadow: 0px 1px 10px 10px rgb(255, 255, 255);
+}
+.login {
+  position: relative;
+  font-family: "Times new Roman";
+  color: white;
+  margin-top: 5%;
+  left: calc(50% - 50px);
+  text-shadow: 2px 3px 5px white;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -60px;
+  transform: rotate(10deg);
+  left: calc(50% - 50px);
+  box-shadow: 0px 1px 5px 10px rgb(255, 255, 255);
+}
+.label {
+  color: rgb(0, 0, 0);
+  position: relative;
+  font-size: 25px;
+  left: calc(50% - 60px);
+  display: block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.input {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin-left: auto;
+  font-size: medium;
+  margin-right: auto;
+  padding: 2px;
+  display: block;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  outline: none;
+  text-align: center;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.submit {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20%;
+  width: 20vh;
+  outline: none;
+  height: 10%;
+  color: black;
+  font-size: 22px;
+  font-family: "Fira Code Bold", "Times New Roman";
+  background-color: white;
+  border: 2px double;
+  border-color: red;
+  border-radius: 15px;
+  text-align: center;
+}
+.submit:hover {
+  background-color: rgb(82, 94, 82);
+  color: white;
+  box-shadow: 0px 0px 5px 10px white;
+  transition: 0.3s ease box-shadow;
+}
+.forgot {
+  color: white;
+  position: relative;
+  margin-left: 50%;
+  font-size: 13px;
+  margin-right: auto;
+}
+
+.signup {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  width: 30%;
+  outline: none;
+  height: 10%;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-family: "Fira Code Bold", "Times New Roman";
+  background-color: rgb(240, 86, 86);
+  border: 2px double;
+  border-color: red;
+  border-radius: 15px;
+  text-align: center;
+}
