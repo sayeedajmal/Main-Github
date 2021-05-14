@@ -1,10 +1,11 @@
 .root {
   background-color: rgba(3, 43, 77, 0.856);
+  background-image: url(/images/odi.jpg);
   display: block;
-  margin-right: auto;
+  padding-right: 100px;
   margin-left: auto;
-  height: fit-content;
-  width: fit-content;
+  height: 100%;
+  width: 100%;
 }
 .body {
   display: block;
