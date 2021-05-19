@@ -1,8 +1,8 @@
 .root {
-  background-color: rgba(3, 43, 77, 0.856);
-  background-image: url(/images/odi.jpg);
+  background-color: rgba(44, 150, 243, 0.856);
+  /* background-image: url(/images/odi.jpg); */
   display: block;
-  padding-right: 100px;
+  position: fixed;
   margin-left: auto;
   height: 100%;
   width: 100%;
@@ -30,7 +30,10 @@
   position: relative;
   font-family: "Times new Roman";
   color: white;
-  margin-top: 5%;
+  margin-top: 2%;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
   left: calc(50% - 50px);
   text-shadow: 2px 3px 5px white;
 }
