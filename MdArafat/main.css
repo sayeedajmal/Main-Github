@@ -25,6 +25,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transform: rotate(18deg);
 }
 
 .image {
@@ -39,7 +40,7 @@
 .links {
   border-radius: 50%;
   position: static;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   position: absolute;
   padding-top: 10px;
   padding-left: 38px;
