@@ -1,0 +1,25 @@
+.Label {
+  background-color: rgba(41, 163, 245, 0.733);
+  color: white;
+  font-family: "Fira Code Bold";
+  position: relative;
+  height: 6vh;
+}
+.container {
+  width: 90%;
+  position: relative;
+  display: block;
+  height: 30vh;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  padding-top: 50px;
+  border: 2px solid rgb(39, 181, 238);
+  border-radius: 10px;
+}
+.h1 {
+  color: rgb(0, 80, 253);
+  text-align: center;
+  padding-left: 10px;
+  font-family: "monospace Bold";
+}
