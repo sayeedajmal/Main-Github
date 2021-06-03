@@ -1,0 +1,55 @@
+.root {
+  background-color: rgba(44, 243, 200, 0.856);
+  display: block;
+  position: fixed;
+  font-family: "Fira Code Bold";
+  margin-left: auto;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+}
+
+.form {
+  background-color: rgba(11, 90, 114, 0.767);
+  height: 80vh;
+  width: 9cm;
+  font-size: 30px;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: calc(50% - 50px);
+  border-radius: 25px;
+  border-color: red;
+}
+.form:hover {
+  background-color: rgb(61, 68, 61);
+  color: white;
+  box-shadow: 0px 0px 5px 10px rgb(25, 132, 233);
+  transition: 0.5s ease box-shadow;
+  cursor: pointer;
+}
+.form.h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+  user-select: none;
+  text-shadow: 4px 4px 4px;
+}
+.form label {
+  color: white;
+  text-align: left;
+  margin-left: 3px;
+  font-size: 20px;
+}
+.input {
+  color: rgb(0, 0, 0);
+  width: 70%;
+  height: 3vh;
+  outline: none;
+}
+.submit {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}

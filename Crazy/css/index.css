@@ -7,12 +7,6 @@
   height: 100%;
   width: 100%;
 }
-.body {
-  display: block;
-  position: static;
-  width: auto;
-  height: auto;
-}
 .container {
   background-color: rgba(13, 184, 236, 0.767);
   height: 60vh;
@@ -104,23 +98,8 @@
   font-size: 13px;
   margin-right: auto;
 }
-
-.signup {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: 20px;
-  width: 30%;
-  outline: none;
-  height: 10%;
-  color: black;
-  font-size: large;
-  font-family: "Fira Code Bold", "Times New Roman";
-  border: 2px double;
-  border-color: white;
-  cursor: pointer;
-  text-align: center;
+.signup{
+  border-radius: 10px;
 }
 .signup:hover {
   background-color: rgb(82, 94, 82);
