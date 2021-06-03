@@ -98,8 +98,23 @@
   font-size: 13px;
   margin-right: auto;
 }
-.signup{
+.signup {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20%;
+  width: 20vh;
+  outline: none;
+  height: 10%;
+  color: black;
+  font-size: 22px;
+  font-family: "Fira Code Bold", "Times New Roman";
+  background-color: white;
+  border: 2px double;
+  border-color: red;
   border-radius: 10px;
+  text-align: center;
 }
 .signup:hover {
   background-color: rgb(82, 94, 82);
