@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <form method="POST" action="Dashboard.html">
+  <form method="POST" action="Dashboard.php">
     <h1 class="login">Login</h1>
     <div class="container">
       <img src="images/Test.jpg" class="avatar" />
