@@ -1,0 +1,189 @@
+body {
+  user-select: none;
+  padding: 0; /* 
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%); */
+}
+header {
+  top: 0;
+  height: 80px;
+  margin-top: 10px;
+  padding-top: 20px;
+  position: sticky;
+  background-color: white;
+  border: 2px blue groove;
+  box-shadow: 1px 3px 20px lightblue;
+}
+header text {
+  margin-left: 5%;
+  text-decoration: dotted;
+  color: white;
+  font-size: 40px;
+  width: 25vh;
+  height: 50px;
+  font-weight: bold;
+  user-select: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  position: absolute;
+  display: flexbox;
+  font-family: "URW GOTHIC";
+  text-decoration: overline;
+  text-shadow: -1px 5px 20px rgb(2, 82, 109);
+  box-shadow: 2px 2px 20px rgb(2, 82, 109);
+  border-radius: 50px;
+  background-color: rgb(32, 186, 238);
+}
+header img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 10px;
+  border-radius: 20%;
+}
+header img:hover {
+  border-radius: 0px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 0px 20px rgb(24, 103, 207);
+}
+.headline_link {
+  right: 5%;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+  color: white;
+  margin-right: -10px;
+  position: absolute;
+  text-decoration: dotted;
+  text-transform: capitalize;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.headline_link a:hover {
+  color: rgb(0, 81, 255);
+}
+.headline_link:visited {
+  color: green;
+}
+.headline_link:active {
+  color: white;
+}
+aside {
+  background-color: gray;
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  height: 70vh;
+  margin-bottom: 10px;
+}
+aside img {
+  display: inline-block;
+  height: 70vh;
+  width: 100%;
+}
+section {
+  background-color: white;
+  height: 100vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  display: flexbox;
+  box-shadow: 0px 5px 100px lightblue;
+}
+.avtar {
+  width: 30%;
+  height: 70%;
+  float: left;
+  position: static;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 7px black;
+  box-sizing: border-box;
+  margin-right: 10px;
+  opacity: 0.7;
+  filter: brightness(100%);
+  filter: grayscale(30%);
+}
+section h1 {
+  color: rgb(243, 44, 74);
+  text-align: center;
+  font-size: 30px;
+}
+section h3 {
+  font-family: "URW Gothic";
+  text-shadow: 5px 5px 10px lightblue;
+  color: rgb(66, 189, 230);
+  text-align: justify;
+}
+
+.para {
+  position: absolute;
+  margin-left: 10%;
+  color: rgb(28, 28, 214);
+  font-size: 20px;
+}
+/* <==========================> */
+.git {
+  display:  flex;
+  width: 4.9%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 20px;
+}
+.github {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.git:hover {
+  background-color: lightblue;
+  box-shadow: 0px 5px 20px lightblue;
+}
+/* <===============================> */
+.insta {
+  display: flex;
+  width: 4.9%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: white;
+}
+.instagram {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.insta:hover {
+  background-color: lightblue;
+  box-shadow: 0px 3px 20px lightblue;
+}
+
+footer {
+  background-color: rgb(7, 99, 99);
+  height: 30px;
+  border-radius: 20px;
+}
+footer text {
+  color: white;
+  text-align: center;
+  display: block;
+  font-family: "URW Gothic";
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+footer text p {
+  color: black;
+  text-align: center;
+  display: block;
+  font-family: "URW Gothic";
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
