@@ -1,0 +1,74 @@
+.root {
+  background-color: rgb(46, 122, 223);
+  color: black;
+  font-family: URW Gothic;
+  text-align: center;
+  z-index: 0;
+  font-size: large;
+  user-select: none;
+  position: relative;
+}
+.container h1 {
+  padding-top: 30px;
+  margin-top: 50px;
+  text-align: center;
+  position: static;
+  text-shadow: 1px 0px 20px red;
+  text-decoration: dashed;
+  text-align: center;
+  fill: transparent;
+  stroke: black;
+  letter-spacing: 2px;
+  color: white;
+}
+.container {
+  height: 85vh;
+  width: 30%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+.container1 {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  display: block;
+  position: absolute;
+}
+.container1 text {
+  margin-left: 30px;
+  position: absolute;
+  display: block;
+  font-size: larger;
+}
+.container1 input {
+  color: red;
+  font-size: larger;
+  border-radius: 30px;
+  inset: inherit;
+  width: 15em;
+  margin-left: 40px;
+  position: relative;
+  margin-right: auto;
+  outline: none;
+  border-color: white white red;
+  text-align: center;
+}
+.loginbutton {
+  background-color: rgb(11, 87, 112);
+  text-align: center;
+  height: 4vh;
+  width: 70%;
+  font-family: "URW Gothic";
+  color: white;
+  font-style: oblique;
+  font-size: larger;
+  text-decoration: none;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+}

@@ -12,7 +12,7 @@ include 'include/header.php';
     }
     username("sayeed");
     username("ajmal");
-    username("Summaiya");
+    username("S.S.");
     ?>
 </body>
 <?php
