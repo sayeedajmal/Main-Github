@@ -1,4 +1,4 @@
-.container{
+.container {
   text-align: center;
   font-size: large;
 }
@@ -11,7 +11,6 @@
 .top-photo img {
   width: 100%;
   max-height: 500px;
-  
 }
 
 .top-photo h3 {
@@ -101,23 +100,20 @@ ul li:nth-child(4) {
 
 .smGlobalBtn {
   /* global button class */
-  display: inline-block;
-  position: relative;
+  width: 84px;
+  height: 81px;
+  color: #fff;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
-  border: 2px solid #ddd; /* add border to the buttons */
+  font-size: 75px;
+  position: relative;
+  display: inline-block;
+  border: 2px solid #ddd;
   box-shadow: 0 3px 3px #999;
-  padding: 0px;
   text-decoration: none;
   text-align: center;
-  color: #fff;
-  font-size: 25px;
   font-weight: normal;
-  line-height: 2em;
-  border-radius: 27px;
-  -moz-border-radius: 27px;
-  -webkit-border-radius: 27px;
+  line-height: 5.2rem;
+  border-radius: 30px;
 }
 
 /* facebook button class*/
@@ -153,84 +149,35 @@ ul li:nth-child(4) {
   border-color: #00abe3;
 }
 
-/* google plus button class*/
-.googleplusBtn {
+/* Github button class*/
+.githubBtn {
   background: #bdbdbd;
 }
 
-.googleplusBtn:before {
+.githubBtn:before {
   font-family: "FontAwesome";
-  content: "\f0d5"; /* add googleplus icon */
 }
 
-.googleplusBtn:hover {
+.githubBtn:hover {
   color: #e64522;
   background: #fff;
   border-color: #e64522;
 }
 
-/* linkedin button class*/
-.linkedinBtn {
+
+/* Instagram button class*/
+.instagramBtn {
   background: #bdbdbd;
 }
 
-.linkedinBtn:before {
+.instagramBtn:before {
   font-family: "FontAwesome";
-  content: "\f0e1"; /* add linkedin icon */
 }
 
-.linkedinBtn:hover {
-  color: #0094bc;
-  background: #fff;
-  border-color: #0094bc;
-}
-
-/* pinterest button class*/
-.pinterestBtn {
-  background: #bdbdbd;
-}
-
-.pinterestBtn:before {
-  font-family: "FontAwesome";
-  content: "\f0d2"; /* add pinterest icon */
-}
-
-.pinterestBtn:hover {
+.instagramBtn:hover {
   color: #cb2027;
   background: #fff;
   border-color: #cb2027;
-}
-
-/* tumblr button class*/
-.tumblrBtn {
-  background: #bdbdbd;
-}
-
-.tumblrBtn:before {
-  font-family: "FontAwesome";
-  content: "\f173"; /* add tumblr icon */
-}
-
-.tumblrBtn:hover {
-  color: #3a5876;
-  background: #fff;
-  border-color: #3a5876;
-}
-
-/* rss button class*/
-.rssBtn {
-  background: #bdbdbd;
-}
-
-.rssBtn:before {
-  font-family: "FontAwesome";
-  content: "\f09e"; /* add rss icon */
-}
-
-.rssBtn:hover {
-  color: #e88845;
-  background: #fff;
-  border-color: #e88845;
 }
 
 /* responsive */
