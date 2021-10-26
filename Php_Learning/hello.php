@@ -15,7 +15,7 @@ include 'include/header.php';
     echo "<br><br><h4>Time Formation</h4>";
     echo "The time is " . date("h:i:sa");
     ?>
-
+    
     <?php
     require 'include/footer.php';
     ?>

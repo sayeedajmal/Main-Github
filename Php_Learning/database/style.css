@@ -1,0 +1,48 @@
+#container{
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+    border: 5px solid black;
+    box-shadow: 
+        0 2rem 0 -1rem blue,
+        0 4rem 0 -2rem red,
+        0 6rem 0 -3rem purple
+    ;
+    padding: 2rem;
+    background-color: lightskyblue;
+}
+form>text {
+    font-size: 1.5rem;
+    display: block;
+    
+}
+
+form>input, form>select {
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    height: 2rem;
+    text-align: center;
+}
+form>button{
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    outline: none;
+    border: 2px solid blue;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    color: blue;
+}
+
+/* SUCESSFULLY LOGINED */
+#container>h4{
+    color: white;
+}

@@ -17,4 +17,5 @@
     <li class="nav-item"><a class="nav-link" href="forloop.php">For Loop</a> </li>
     <li class="nav-item"><a class="nav-link" href="userdefine.php">User Define Function</a> </li>
     <li class="nav-item"><a class="nav-link" href="file.php">File Operation</a> </li>
+    <li class="nav-item"><a class="nav-link" href="Object.php">Object of PHP</a> </li>
 </ul>
