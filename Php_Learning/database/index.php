@@ -23,11 +23,11 @@
             <input type="date" name="date" required>
             <br>
             <text>Profession</text>
-            <select id="Profession" required>
-                <option value="software">Civil Engineer</option>
-                <option value="software">Mechanical Engineer</option>
-                <option value="software">Software Engineer</option>
+            <select name="Profession" id="Profession" required>
                 <option>Select Your Profession</option>
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="Civil Engineer">Civil Engineer</option>
+                <option value="Mechanical Engineer">Mechanical Engineer</option>
             </select>
             <br>
             <text>Password</text>

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h1 style="text-align: center; font-size: 2rem; color:blue; ">SUCESSFULLY LOGIN</h1>
+    <h1 style="text-align: center; font-size: 2rem; color:blue;">SUCESSFULLY LOGIN</h1>
     <?php
     $USERNAME = $_POST["username"];
     $DATE = $_POST["date"];
@@ -20,10 +20,10 @@
     ?>
     <div id="container">
         <?php
-        print("<h4>USERNAME IS:  $USERNAME</h4>");
-        print("<h4>DATE OF BIRTH IS: $DATE</h4>");
-        print("<h4>THE PROFESSION IS: $PROFESSION</h4>");
-        print("<h4>PASSWORD IS: $PASSWORD</h4>");
+        print("<h4>UserName is:  $USERNAME</h4>");
+        print("<h4>Date OF Birth is: $DATE</h4>");
+        print("<h4>The Profession is: $PROFESSION</h4>");
+        print("<h4>THe Password is: $PASSWORD</h4>");
         ?>
     </div>
 
