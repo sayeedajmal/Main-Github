@@ -80,7 +80,7 @@ h4 {
 .about_header {
   display: flex;
   position: relative;
-  width: 100%;
+  width: auto;
   align-items: center;
   padding-left: 1rem;
   justify-content: flex-start;
@@ -148,13 +148,18 @@ h4 {
 }
 .avtar > img {
   width: 40vw;
+  position: relative;
+  left: 24%;
+  filter: blur(35px);
+  border: 2px solid white;
+  border-radius: 1rem;
 }
 .box {
   width: 40vw;
   border: 2px solid #64ffda;
   border-radius: 10px;
   position: relative;
-  top: 15px;
-  left: 0px;
+  top: 10px;
+  left: -50px;
   z-index: -1;
 }
