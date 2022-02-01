@@ -64,14 +64,16 @@ h4 {
 .container > p > a:visited {
   color: white;
 }
-.container > button {
+.container > a {
   height: 3rem;
   background-color: transparent;
   color: #64ffda;
   outline: none;
   margin-top: 3rem;
-  font-size: 1rem;
-  border-radius: 11px;
+  padding: 0.4rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 10px;
   border: 2px solid #64ffda;
   font-family: system-ui;
   margin-left: 2rem;
@@ -150,7 +152,6 @@ h4 {
   width: 40vw;
   position: relative;
   left: 24%;
-  filter: blur(35px);
   border: 2px solid white;
   border-radius: 1rem;
 }
