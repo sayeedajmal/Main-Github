@@ -6,12 +6,18 @@ body {
   position: fixed;
   align-items: center;
   height: 2rem;
-  background-color: #073368;
+  background-color: #1057ad;
   width: 93%;
   top: 1rem;
   display: flex;
   justify-content: space-between;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
+
 .nav_bar > img {
   margin: 0.5rem;
   border-radius: 20px;
@@ -104,7 +110,7 @@ h4 {
 .about_header > h4 {
   color: white;
   margin-left: 1.1rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -151,8 +157,7 @@ h4 {
 }
 .avtar > img {
   width: 40vw;
-  position: relative;
-  left: 24%;
+  margin-left: 24%;
   border: 2px solid white;
   border-radius: 1rem;
 }
@@ -165,9 +170,15 @@ h4 {
   left: -50px;
   z-index: -1;
 }
-.mentorshipProject{
+.mentorshipProject {
   width: 90%;
-  display: block;
-  border: 2px solid red;
-  height: 50%;
+  position: relative;
+  height: 53vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #485fa936;
+}
+.mentorshipProject > h3 {
+  color: white;
+  padding: 1rem;
 }
