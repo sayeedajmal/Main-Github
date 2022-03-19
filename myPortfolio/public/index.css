@@ -7,7 +7,7 @@ body {
   align-items: center;
   height: 2rem;
   background-color: #1057ad;
-  width: 93%;
+  width: 95%;
   top: 1rem;
   display: flex;
   justify-content: space-between;
@@ -61,7 +61,7 @@ h4 {
 .container > p {
   color: #c4deff;
   font-family: cursive;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   padding: 1rem;
 }
 .container > p > a {
@@ -91,7 +91,7 @@ h4 {
   width: auto;
   align-items: center;
   padding-left: 1rem;
-  justify-content: flex-start;
+  margin-top: 20%;
 }
 .about_header::after {
   content: "";
@@ -170,15 +170,41 @@ h4 {
   left: -50px;
   z-index: -1;
 }
-.mentorshipProject {
+.Projects {
   width: 90%;
   position: relative;
-  height: 53vh;
   margin-left: auto;
   margin-right: auto;
-  background-color: #485fa936;
+  background-color: #1c57ada1;
+  border-radius: 10px;
 }
-.mentorshipProject > h3 {
+.Projects > h3 {
   color: white;
   padding: 1rem;
+}
+.Projects > ol > li {
+  color: #ffffffb8;
+  list-style: circle;
+  line-height: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Footer {
+  margin: auto;
+  position: relative;
+  width: 90%;
+  margin-top: 2rem;
+  height: auto;
+  background-color: #0b2d58;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Footer > a > img {
+  height: 3vh;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-top: 25%;
+  background: white;
 }
