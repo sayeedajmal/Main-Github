@@ -11,13 +11,16 @@ body {
   top: 1rem;
   display: flex;
   justify-content: space-between;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 6px;
+  padding-bottom: 5px;
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-
+.nav_bar > a > img {
+  margin: 0.5rem;
+  border-radius: 20px;
+}
 .nav_bar > img {
   margin: 0.5rem;
   border-radius: 20px;
@@ -87,7 +90,6 @@ h4 {
 }
 .about_header {
   display: flex;
-  position: relative;
   width: auto;
   align-items: center;
   padding-left: 1rem;
@@ -96,7 +98,6 @@ h4 {
 .about_header::after {
   content: "";
   display: block;
-  position: relative;
   width: 8rem;
   height: 1px;
   margin-left: 7px;
@@ -172,7 +173,6 @@ h4 {
 }
 .Projects {
   width: 90%;
-  position: relative;
   margin-left: auto;
   margin-right: auto;
   background-color: #1c57ada1;
@@ -180,6 +180,7 @@ h4 {
 }
 .Projects > h3 {
   color: white;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 .Projects > ol > li {
@@ -194,10 +195,11 @@ h4 {
   margin: auto;
   position: relative;
   width: 90%;
-  margin-top: 2rem;
+  margin-top: 4rem;
   height: auto;
-  background-color: #0b2d58;
+  background-color: #287ce5;
   display: flex;
+  border-radius: 20px;
   justify-content: space-around;
 }
 
