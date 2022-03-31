@@ -39,7 +39,6 @@ body {
   display: block;
   margin: auto;
   margin-top: 4.5rem;
-  height: 30rem;
   width: 90%;
 }
 .container > h2 {
@@ -58,7 +57,7 @@ h4 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.container > h4 {
+.container > h3 {
   color: rgb(184, 190, 245);
 }
 .container > p {
@@ -93,7 +92,7 @@ h4 {
   width: auto;
   align-items: center;
   padding-left: 1rem;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 .about_header::after {
   content: "";
@@ -120,6 +119,7 @@ h4 {
   height: fit-content;
 }
 .about > p {
+  font-size: 1.2rem;
   color: aquamarine;
   padding: 0 1rem;
 }
@@ -137,14 +137,13 @@ h4 {
   list-style: none;
   color: #2a8bff;
   font-size: 1.2rem;
+  justify-content: space-around;
 }
 .skills_list li {
-  position: relative;
   padding-left: 20px;
 }
 .skills_list li::before {
   content: "▹";
-  position: absolute;
   left: 0px;
   color: #64ffda;
   font-size: var(--fz-sm);

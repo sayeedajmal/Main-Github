@@ -1,0 +1,70 @@
+@media (min-width: 390px) {
+  html {
+    font-size: 1.2rem;
+  }
+  body {
+    background-color: #022a5b;
+    padding: 0;
+  }
+  .nav_bar {
+    width: 99%;
+    top: 1rem;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .nav_bar > img {
+    margin: 0.5rem;
+    border-radius: 20px;
+  }
+  .container > h2 {
+    font-size: 1.5rem;
+  }
+  .container > h5,
+  h4 {
+    font-size: 3rem;
+  }
+  .container > h3 {
+    font-size: 2rem;
+    margin-right: 20%;
+    margin-left: 3rem;
+  }
+  .container > p {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-right: 30%;
+  }
+  .container > a {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #28ffa3;
+  }
+  .about_header {
+    margin-top: 7rem;
+    padding-left: 5rem;
+  }
+  .about_header::after {
+    width: 50%;
+  }
+  .about > p {
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    width: 40%;
+  }
+  .skills_list {
+    font-size: 1.5rem;
+    width: 50%;
+    margin: auto;
+  }
+  .avtar {
+    margin-top: -27rem;
+    margin-bottom: 15rem;
+  }
+  .avtar > img {
+    width: 20vw;
+    margin-left: 30rem;
+  }
+  .box {
+    display: contents;
+  }
+}
