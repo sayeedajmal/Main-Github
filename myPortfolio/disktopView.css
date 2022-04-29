@@ -8,13 +8,10 @@
   }
   .nav_bar {
     width: 99%;
-    top: 1rem;
+    top: 0.5rem;
+    border-radius: 10px;
     padding-top: 1px;
     padding-bottom: 1px;
-  }
-  .nav_bar > img {
-    margin: 0.5rem;
-    border-radius: 20px;
   }
   .container > h2 {
     font-size: 1.5rem;

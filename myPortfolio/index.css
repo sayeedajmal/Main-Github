@@ -7,8 +7,9 @@ body {
   align-items: center;
   height: 2rem;
   background-color: #1057ad;
-  width: 95%;
-  top: 1rem;
+  width: 97%;
+  border-radius: 10px;
+  top: 0;
   display: flex;
   justify-content: space-between;
   padding-top: 6px;
@@ -18,20 +19,22 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 .nav_bar > a > img {
-  margin: 0.5rem;
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
   border-radius: 20px;
 }
-.nav_bar > img {
-  margin: 0.5rem;
-  border-radius: 20px;
-}
+
 .logo {
   height: 2rem;
+}
+.home_lap{
+  display: none;
 }
 .menu {
   display: flex;
   background-color: white;
   height: 2rem;
+  margin: 0.5rem;
   justify-content: flex-end;
 }
 .container,
@@ -157,7 +160,6 @@ h4 {
 }
 .avtar > img {
   width: 40vw;
-  margin-left: 24%;
   border: 2px solid white;
   border-radius: 1rem;
 }
@@ -183,7 +185,7 @@ h4 {
   padding: 1rem;
 }
 .Projects > ol > li {
-  color: #ffffffb8;
+  color: white;
   list-style: circle;
   line-height: 2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
