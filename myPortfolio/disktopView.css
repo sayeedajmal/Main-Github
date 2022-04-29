@@ -13,6 +13,9 @@
     padding-top: 1px;
     padding-bottom: 1px;
   }
+  .home_lap{
+    display: block;
+  }
   .container > h2 {
     font-size: 1.5rem;
   }
