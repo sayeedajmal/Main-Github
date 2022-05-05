@@ -1,4 +1,4 @@
-@media screen and (min-width: 490px){
+@media screen and (min-width: 490px) {
   html {
     font-size: 1.2rem;
   }
@@ -13,7 +13,7 @@
     padding-top: 1px;
     padding-bottom: 1px;
   }
-  .home_lap{
+  .home_lap {
     display: block;
   }
   .container > h2 {
@@ -53,16 +53,14 @@
   }
   .skills_list {
     font-size: 1.5rem;
-    width: 50%;
+    padding: 1rem;
     margin: auto;
   }
   .avtar {
-    margin-top: -27rem;
-    margin-bottom: 15rem;
+    float: right;
   }
   .avtar > img {
     width: 20vw;
-    margin-left: 30rem;
   }
   .box {
     display: contents;
