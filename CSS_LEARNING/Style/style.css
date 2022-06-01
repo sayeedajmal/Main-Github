@@ -84,3 +84,13 @@ p {
 .link a:visited {
   color: rgba(48, 252, 30, 0.829);
 }
+
+.portfolio{
+  color: white;
+}
+.portfolio:hover{
+  display: block;
+  width: 50vw;
+  height: 50%;
+  background-color: white;
+}
