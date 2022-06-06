@@ -36,6 +36,38 @@ body {
   margin: 0.3rem;
   justify-content: flex-end;
 }
+/* THIS IS FOR HOVERING MOBILE MENU */
+.menu {
+  position: relative;
+}
+.menu_dropdown {
+  background-color: #022a5b;
+  position: fixed;
+  top: 2.5rem;
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform 0.8s, opacity 0.2s;
+  text-align: center;
+  left: 0;
+}
+.menu_dropdown > ul {
+  list-style-type: none;
+  margin-top: 2rem;
+}
+.menu_dropdown > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+.menu:hover,
+.menu_dropdown:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+/* END */
 .container,
 .about {
   display: block;
@@ -200,7 +232,6 @@ h4 {
 }
 .Footer {
   margin: auto;
-  position: relative;
   width: 90%;
   margin-top: 4rem;
   height: auto;
