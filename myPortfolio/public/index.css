@@ -30,17 +30,71 @@ body {
 .home_lap {
   display: none;
 }
+
+/* THIS IS FOR HOVERING MOBILE MENU */
 .menu {
+  position: relative;
+}
+/* ============================MOBILE NEVBAR======================================= */
+.mobile_navbar {
+  font-size: 1.5rem;
+  float: right;
+}
+.mobile_navbar_item > img {
   display: flex;
   height: 2rem;
   margin: 0.3rem;
   justify-content: flex-end;
 }
-/* THIS IS FOR HOVERING MOBILE MENU */
-.menu {
+.mobile_navbar_item {
   position: relative;
 }
-.menu_dropdown {
+.mobile_navbar_dropdown {
+  background-color: #071a32;
+  position: fixed;
+  top: 2.5rem;
+  opacity: 0;
+  width: 100vw;
+  color: white;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform 0.8s, opacity 0.2s;
+  display: block;
+  text-align: center;
+  left: 0rem;
+}
+.mobile_navbar_dropdown > ul {
+  list-style-type: none;
+  padding: 8px 0px;
+  color: white;
+  margin-top: 6rem;
+}
+.mobile_navbar_dropdown > ul > li {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.mobile_navbar_dropdown > ul > li > a:visited,
+.mobile_navbar_dropdown > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+.mobile_navbar_item:hover .mobile_navbar_dropdown {
+  opacity: 1;
+  height: 100vh;
+  transform: scale(1);
+}
+
+.icons {
+  height: 2rem;
+  padding-left: 2rem;
+  position: absolute;
+  padding-top: 0.3rem;
+}
+/* ==============================END OF MOBILE NAVBAR============================== */
+
+/* .menu_dropdown {
   background-color: #022a5b;
   position: fixed;
   top: 2.5rem;
@@ -66,8 +120,9 @@ body {
 .menu_dropdown:hover {
   opacity: 1;
   transform: scale(1);
-}
+} */
 /* END */
+
 .container,
 .about {
   display: block;
@@ -213,6 +268,7 @@ h4 {
 .Projects > h3 {
   color: white;
   font-size: 1.5rem;
+  margin-bottom:0;
   padding: 1rem;
 }
 .Projects > ol > li {

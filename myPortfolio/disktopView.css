@@ -13,6 +13,10 @@
     padding-top: 1px;
     padding-bottom: 1px;
   }
+  /* STOPING THE HOVERING OF NAV-BAR */
+  .mobile_navbar_dropdown {
+    display: none;
+  }
   .home_lap {
     display: block;
   }
@@ -64,5 +68,8 @@
   }
   .box {
     display: contents;
+  }
+  .Projects > ol > li {
+   list-style-position: inside;
   }
 }
