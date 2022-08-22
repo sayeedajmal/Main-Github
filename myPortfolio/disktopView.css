@@ -2,10 +2,12 @@
   html {
     font-size: 1.2rem;
   }
+
   body {
     background-color: #022a5b;
     padding: 0;
   }
+
   .nav_bar {
     width: 99%;
     top: 0.5rem;
@@ -13,63 +15,86 @@
     padding-top: 1px;
     padding-bottom: 1px;
   }
+
+  .mobile_navbar {
+    display: none;
+  }
+
+  .nav_bar>h3 {
+    margin-right: 40%;
+  }
+
   /* STOPING THE HOVERING OF NAV-BAR */
   .mobile_navbar_dropdown {
     display: none;
   }
+
   .home_lap {
     display: block;
   }
-  .container > h2 {
+
+  .container>h2 {
     font-size: 1.5rem;
   }
-  .container > h5,
+
+  .container>h5,
   h4 {
     font-size: 3rem;
   }
-  .container > h3 {
+
+  .container>h3 {
     font-size: 2rem;
     margin-right: 20%;
     margin-left: 3rem;
   }
-  .container > p {
+
+  .container>p {
     font-size: 1.5rem;
     margin-left: 2rem;
     margin-right: 3rem;
     margin-right: 30%;
   }
-  .container > a {
+
+  .container>a {
     padding: 1rem;
     font-size: 1rem;
     color: #28ffa3;
   }
+
   .about_header {
     margin-top: 7rem;
     padding-left: 5rem;
   }
+
   .about_header::after {
     width: 50%;
   }
-  .about > p {
+
+  .about>p {
     margin-left: 4rem;
     font-size: 1.5rem;
     width: 40%;
   }
+
   .skills_list {
     font-size: 1.5rem;
     padding: 1rem;
     margin: auto;
   }
+
   .avtar {
     float: right;
   }
-  .avtar > img {
+
+  .avtar>img {
     width: 20vw;
   }
+
   .box {
     display: contents;
   }
-  .Projects > ol > li {
-   list-style-position: inside;
+
+  .Projects>ol>li {
+    list-style-position: inside;
   }
 }
