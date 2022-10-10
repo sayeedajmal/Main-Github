@@ -52,7 +52,6 @@ body {
 .mobile_navbar_dropdown {
   background-color: #071a32;
   position: fixed;
-  top: 2.5rem;
   opacity: 0;
   width: 100vw;
   color: white;
@@ -173,7 +172,7 @@ h4 {
   border-radius: 10px;
   border: 2px solid #64ffda;
   font-family: system-ui;
-  margin-left: 2rem;
+  margin-left: 1rem;
   cursor: pointer;
 }
 .about_header {
@@ -246,8 +245,7 @@ h4 {
 }
 .avtar > img {
   width: 40vw;
-  border: 2px solid white;
-  border-radius: 1rem;
+  filter: drop-shadow(2px 2px 3px #db8920);
 }
 .box {
   width: 40vw;
@@ -268,7 +266,7 @@ h4 {
 .Projects > h3 {
   color: white;
   font-size: 1.5rem;
-  margin-bottom:0;
+  margin-bottom: 0;
   padding: 1rem;
 }
 .Projects > ol > li {

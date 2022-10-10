@@ -56,9 +56,13 @@
   }
 
   .container>a {
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 1rem;
     color: #28ffa3;
+  }
+
+  .container>a:hover{
+    padding: 1em;
   }
 
   .about_header {
