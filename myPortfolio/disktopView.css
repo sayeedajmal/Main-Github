@@ -25,7 +25,7 @@
   }
 
   /* STOPING THE HOVERING OF NAV-BAR */
-  .mobile_navbar_dropdown {
+  .panel {
     display: none;
   }
 
