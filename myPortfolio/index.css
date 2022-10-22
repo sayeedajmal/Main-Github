@@ -174,15 +174,15 @@ h4 {
 
 .container>a {
   height: 3rem;
-  background-color: transparent;
+  background-color: #135ed3;
   color: #64ffda;
   outline: none;
   margin-top: 3rem;
   padding: 0.4rem;
+  border: 2px solid white;
   font-size: 1.1rem;
   text-decoration: none;
   border-radius: 10px;
-  border: 2px solid #64ffda;
   font-family: system-ui;
   margin-left: 1rem;
   cursor: pointer;
@@ -261,13 +261,31 @@ h4 {
   line-height: 12px;
 }
 
+.gallery {
+  background-color: #135ed3;
+  color: #64ffda;
+  outline: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  text-align: center;
+  width: 9rem;
+}
+
 .avtar {
   justify-content: center;
   display: flex;
+  margin-left: 10rem;
   margin-top: 2rem;
 }
 
 .avtar>img {
+  margin-top: 1rem;
   width: 40vw;
   filter: drop-shadow(2px 2px 3px #db8920);
 }

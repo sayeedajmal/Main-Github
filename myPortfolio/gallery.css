@@ -1,0 +1,141 @@
+html {
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.greenleaf {
+    display: block;
+    width: 98%;
+    border: 3px solid lightblue;
+    height: 60vh;
+    border-radius: 10px;
+    float: none;
+}
+
+h5 {
+    text-shadow: 5px 3px 12px white;
+    display: block;
+    margin-top: -6.5rem;
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    color: navajowhite;
+}
+
+.green>p {
+    text-decoration: underline;
+    text-shadow: 2px 3px 10px navajowhite;
+    font-size: 0.3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration-color: #287ce5;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 0.5rem;
+    color: navajowhite;
+}
+
+
+.skills {
+    background-color: white;
+    display: block;
+    margin-top: 1rem;
+}
+
+.about_column {
+    margin-left: 7%;
+    display: block;
+}
+
+.about_column>img {
+    width: 5rem;
+    border: 3px solid gray;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.Footer {
+    margin: auto;
+    width: 90%;
+    /*  margin-top: 4rem; */
+    height: 5vh;
+    background-color: #287ce5;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.Footer>a>img {
+    height: 3vh;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 25%;
+    background: white;
+}
+
+.Footer>a {
+    font-size: 0px;
+}
+
+/* DESKTOP VIEW =========================== */
+@media screen and (min-width: 814px) {
+    .green {
+        margin-bottom: 1rem;
+    }
+
+    .greenleaf {
+        display: block;
+        margin-top: 0.3rem;
+        width: 100%;
+        opacity: 1;
+        height: 70vh;
+    }
+
+    h5 {
+        font-size: 0.7rem;
+        display: block;
+    }
+
+    .green>p {
+        font-size: 0.4rem;
+        margin-left: 1rem;
+        margin-right: 0rem;
+    }
+
+    .green>button:hover {
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .skills {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .about_column {
+        margin-top: 0.5rem;
+        transition: transform 1s;
+        margin-left: 0.5rem;
+    }
+
+    .about_column:hover {
+        color: white;
+        border-radius: 20px;
+        width: fit-content;
+        filter: drop-shadow(5px 15px 10px gray);
+        transition: background-color 1s;
+        transform: scale(1.2);
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .about_column>img {
+        width: 5rem;
+        border-radius: 20px;
+    }
+}

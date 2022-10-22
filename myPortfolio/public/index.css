@@ -2,7 +2,9 @@ body {
   background-color: #022a5b;
   padding: 0;
 }
+
 .nav_bar {
+  z-index: 1;
   position: fixed;
   align-items: center;
   height: 2rem;
@@ -18,7 +20,8 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.nav_bar > a > img {
+
+.nav_bar>a>img {
   margin-top: 0.3rem;
   margin-left: 0.5rem;
   border-radius: 20px;
@@ -27,6 +30,7 @@ body {
 .logo {
   height: 2rem;
 }
+
 .home_lap {
   display: none;
 }
@@ -35,92 +39,93 @@ body {
 .menu {
   position: relative;
 }
+
 /* ============================MOBILE NEVBAR======================================= */
 .mobile_navbar {
   font-size: 1.5rem;
   float: right;
 }
-.mobile_navbar_item > img {
+
+.open_Panel>img {
   display: flex;
   height: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0.3rem;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.close_Panel>img {
+  display: flex;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: white;
   margin: 0.3rem;
   justify-content: flex-end;
 }
-.mobile_navbar_item {
-  position: relative;
-}
-.mobile_navbar_dropdown {
+
+.panel {
   background-color: #071a32;
   position: fixed;
-  opacity: 0;
   width: 100vw;
+  height: 100vh;
   color: white;
-  transform: scale(0);
   transform-origin: top right;
-  transition: transform 0.8s, opacity 0.2s;
   display: block;
   text-align: center;
   left: 0rem;
 }
-.mobile_navbar_dropdown > ul {
-  list-style-type: none;
-  padding: 8px 0px;
-  color: white;
-  margin-top: 6rem;
-}
-.mobile_navbar_dropdown > ul > li {
-  color: white;
-  font-size: 2rem;
-  padding-bottom: 1.5rem;
+
+.contact {
+  height: 90vh;
+  margin: 0.5rem;
 }
 
-.mobile_navbar_dropdown > ul > li > a:visited,
-.mobile_navbar_dropdown > ul > li > a {
-  text-decoration: none;
-  color: white;
+.imageCard {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #2a8bff;
+  height: 22vh;
 }
-.mobile_navbar_item:hover .mobile_navbar_dropdown {
-  opacity: 1;
-  height: 100vh;
-  transform: scale(1);
+
+.imageCard>img {
+  height: 70%;
+  box-shadow: 1px 0px 16px 3px #0a0a0a;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.contactLink {
+  height: 50%;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.contactLink>h3 {
+  padding-top: 1rem;
+  margin: 0;
+  color: #14283f;
+}
+
+.links {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links>a {
+  height: 2rem;
+  border-radius: 10%;
 }
 
 .icons {
+  border-radius: 10%;
   height: 2rem;
-  padding-left: 2rem;
-  position: absolute;
-  padding-top: 0.3rem;
 }
-/* ==============================END OF MOBILE NAVBAR============================== */
 
-/* .menu_dropdown {
-  background-color: #022a5b;
-  position: fixed;
-  top: 2.5rem;
-  opacity: 0;
-  width: 100vw;
-  height: 100vh;
-  transform: scale(0);
-  transform-origin: top right;
-  transition: transform 0.8s, opacity 0.2s;
-  text-align: center;
-  left: 0;
-}
-.menu_dropdown > ul {
-  list-style-type: none;
-  margin-top: 2rem;
-}
-.menu_dropdown > ul > li > a {
-  color: white;
-  text-decoration: none;
-  font-size: 3rem;
-}
-.menu:hover,
-.menu_dropdown:hover {
-  opacity: 1;
-  transform: scale(1);
-} */
-/* END */
+
 
 .container,
 .about {
@@ -129,14 +134,16 @@ body {
   margin-top: 4.5rem;
   width: 90%;
 }
-.container > h2 {
+
+.container>h2 {
   margin: 0;
   margin-top: 2rem;
   padding-left: 2rem;
   font-size: large;
   color: #64ffda;
 }
-.container > h5,
+
+.container>h5,
 h4 {
   color: white;
   margin: 0;
@@ -145,36 +152,42 @@ h4 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.container > h3 {
+
+.container>h3 {
   color: rgb(184, 190, 245);
 }
-.container > p {
+
+.container>p {
   color: #c4deff;
   font-family: cursive;
   font-size: 1.2rem;
   padding: 1rem;
 }
-.container > p > a {
+
+.container>p>a {
   color: white;
 }
-.container > p > a:visited {
+
+.container>p>a:visited {
   color: white;
 }
-.container > a {
+
+.container>a {
   height: 3rem;
-  background-color: transparent;
+  background-color: #135ed3;
   color: #64ffda;
   outline: none;
   margin-top: 3rem;
   padding: 0.4rem;
+  border: 2px solid white;
   font-size: 1.1rem;
   text-decoration: none;
   border-radius: 10px;
-  border: 2px solid #64ffda;
   font-family: system-ui;
   margin-left: 1rem;
   cursor: pointer;
 }
+
 .about_header {
   display: flex;
   width: auto;
@@ -182,6 +195,7 @@ h4 {
   padding-left: 1rem;
   margin-top: 10%;
 }
+
 .about_header::after {
   content: "";
   display: block;
@@ -190,31 +204,37 @@ h4 {
   margin-left: 7px;
   background-color: white;
 }
-.about_header > text {
+
+.about_header>text {
   color: #64ffda;
   font-family: sans-serif;
   font-size: x-large;
 }
-.about_header > h3 {
+
+.about_header>h3 {
   color: white;
   margin-left: 1.1rem;
   font-size: 1.5rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 .about {
   margin-top: 1rem;
   height: fit-content;
 }
-.about > p {
+
+.about>p {
   font-size: 1.2rem;
   color: aquamarine;
   padding: 0 1rem;
 }
+
 .techno {
   color: #beeaff !important;
   margin-top: 3rem;
 }
+
 .skills_list {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 500px));
@@ -228,9 +248,11 @@ h4 {
   font-size: 1.2rem;
   justify-content: space-around;
 }
+
 .skills_list li {
   padding-left: 20px;
 }
+
 .skills_list li::before {
   content: "▹";
   left: 0px;
@@ -238,15 +260,36 @@ h4 {
   font-size: var(--fz-sm);
   line-height: 12px;
 }
+
+.gallery {
+  background-color: #135ed3;
+  color: #64ffda;
+  outline: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  text-align: center;
+  width: 9rem;
+}
+
 .avtar {
   justify-content: center;
   display: flex;
+  margin-left: 10rem;
   margin-top: 2rem;
 }
-.avtar > img {
+
+.avtar>img {
+  margin-top: 1rem;
   width: 40vw;
   filter: drop-shadow(2px 2px 3px #db8920);
 }
+
 .box {
   width: 40vw;
   border: 2px solid #64ffda;
@@ -256,6 +299,7 @@ h4 {
   left: -50px;
   z-index: -1;
 }
+
 .Projects {
   width: 90%;
   margin-left: auto;
@@ -263,19 +307,22 @@ h4 {
   background-color: #1c57ada1;
   border-radius: 10px;
 }
-.Projects > h3 {
+
+.Projects>h3 {
   color: white;
   font-size: 1.5rem;
   margin-bottom: 0;
   padding: 1rem;
 }
-.Projects > ol > li {
+
+.Projects>ol>li {
   color: white;
   list-style: circle;
   line-height: 2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 .projectLink {
   height: 3vh;
   border-radius: 50%;
@@ -284,6 +331,7 @@ h4 {
   margin-top: 5%;
   background: white;
 }
+
 .Footer {
   margin: auto;
   width: 90%;
@@ -295,7 +343,7 @@ h4 {
   justify-content: space-around;
 }
 
-.Footer > a > img {
+.Footer>a>img {
   height: 3vh;
   border-radius: 50%;
   border: 1px solid white;

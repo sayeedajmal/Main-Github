@@ -61,7 +61,7 @@
     color: #28ffa3;
   }
 
-  .container>a:hover{
+  .container>a:hover {
     padding: 1em;
   }
 
@@ -90,8 +90,13 @@
     float: right;
   }
 
+
+
   .avtar>img {
+    margin-top: 7rem;
     width: 20vw;
+    position: absolute;
+    margin-right: -7rem;
   }
 
   .box {
