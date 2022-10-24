@@ -14,25 +14,25 @@ html {
 }
 
 h5 {
-    text-shadow: 5px 3px 12px white;
+    text-shadow: 2px 2px 4px #287ce5;
     display: block;
     margin-top: -6.5rem;
     font-size: 0.5rem;
     margin-left: 0.5rem;
-    color: navajowhite;
+    color: rgb(255, 255, 255);
 }
 
 .green>p {
-    text-decoration: underline;
-    text-shadow: 2px 3px 10px navajowhite;
+    text-shadow: 2px 2px 4px #287ce5;
     font-size: 0.3rem;
     font-weight: bold;
+    stroke-width: 5px;
+    color: white;
     letter-spacing: 5px;
-    text-decoration-color: #287ce5;
     text-align: left;
     margin-right: 10px;
     margin-left: 0.5rem;
-    color: navajowhite;
+    color: white;
 }
 
 
@@ -43,8 +43,10 @@ h5 {
 }
 
 .about_column {
-    margin-left: 7%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
 }
 
 .about_column>img {
@@ -63,6 +65,7 @@ h5 {
     display: flex;
     border-radius: 20px;
     justify-content: space-around;
+    margin-top: 0.3rem;
 }
 
 .Footer>a>img {
@@ -118,9 +121,8 @@ h5 {
     }
 
     .about_column {
-        margin-top: 0.5rem;
         transition: transform 1s;
-        margin-left: 0.5rem;
+        margin-left: 0.3rem;
     }
 
     .about_column:hover {
