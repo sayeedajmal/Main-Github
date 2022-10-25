@@ -47,12 +47,10 @@ body {
 }
 
 .open_Panel>img {
-  display: flex;
   height: 2rem;
   border-radius: 50%;
   background-color: white;
   margin: 0.3rem;
-  justify-content: flex-end;
   position: absolute;
 }
 
@@ -147,7 +145,7 @@ body {
 h4 {
   color: white;
   margin: 0;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-size: 1.7rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -190,7 +188,6 @@ h4 {
   display: flex;
   width: auto;
   align-items: center;
-  padding-left: 1rem;
   margin-top: 10%;
 }
 
@@ -223,6 +220,7 @@ h4 {
 }
 
 .about>p {
+  text-align: justify;
   letter-spacing: 2px;
   font-size: 1.2rem;
   color: #64ffda;
@@ -316,10 +314,12 @@ h4 {
 
 .Projects>ol>li {
   color: white;
-  list-style: circle;
-  line-height: 2rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  list-style: disc;
+  line-height: 1.5rem;
+  padding: 2px;
+  text-align: justify;
+  margin-right: 1rem;
+  text-transform: capitalize;
 }
 
 .projectLink {
