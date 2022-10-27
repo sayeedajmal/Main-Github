@@ -1,6 +1,8 @@
 @media screen and (min-width: 810px) {
   html {
     font-size: 1.2rem;
+    cursor: url("/images/cursor.svg"), auto;
+
   }
 
   body {
@@ -59,10 +61,16 @@
     padding: 0.5rem;
     font-size: 1rem;
     color: #28ffa3;
+    transition: 0.5s;
+    cursor: url('/images/pointer_cursor.png'), auto;
   }
 
-  .container>a:hover {
-    padding: 1em;
+  .container>a:hover,
+  .gallery:hover {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #022a5b;
+    transition: 0.5s;
   }
 
   .about_header {

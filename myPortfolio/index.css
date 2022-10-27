@@ -181,7 +181,6 @@ h4 {
   text-decoration: none;
   border-radius: 5px;
   margin-left: 1rem;
-  cursor: pointer;
 }
 
 .about_header {
@@ -261,17 +260,17 @@ h4 {
 .gallery {
   background-color: #135ed3;
   color: #64ffda;
-  outline: none;
   padding: 0.5rem;
   margin-right: 1rem;
   margin-top: 0.5rem;
   margin-left: auto;
   text-decoration: none;
   border-radius: 5px;
-  cursor: pointer;
   float: right;
   text-align: center;
   width: 9rem;
+  transition: 0.5s;
+  cursor: url('/images/pointer_cursor.png'), auto;
 }
 
 .avtar {
