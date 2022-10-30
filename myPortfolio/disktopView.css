@@ -61,8 +61,8 @@
     padding: 0.5rem;
     font-size: 1rem;
     color: #28ffa3;
-    transition: 0.5s;
     cursor: url('/images/pointer_cursor.png'), auto;
+    transition: 0.5s;
   }
 
   .container>a:hover,
@@ -79,7 +79,7 @@
   }
 
   .about_header::after {
-    width: 50%;
+    width: 60%;
   }
 
   .about>p {

@@ -181,6 +181,7 @@ h4 {
   text-decoration: none;
   border-radius: 5px;
   margin-left: 1rem;
+  cursor: url('/images/pointer_cursor.png'), auto;
 }
 
 .about_header {
@@ -193,7 +194,7 @@ h4 {
 .about_header::after {
   content: "";
   display: block;
-  width: 8rem;
+  width: 50%;
   height: 1px;
   margin-left: 7px;
   background-color: white;
@@ -314,7 +315,7 @@ h4 {
 .Projects>ol>li {
   color: white;
   list-style: disc;
-  line-height: 1.5rem;
+  line-height: 2rem;
   padding: 2px;
   text-align: justify;
   margin-right: 1rem;
