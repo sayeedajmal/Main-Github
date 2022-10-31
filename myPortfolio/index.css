@@ -145,6 +145,7 @@ body {
 h4 {
   color: white;
   margin: 0;
+  text-transform: uppercase;
   margin-left: 1rem;
   font-size: 1.7rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -222,6 +223,7 @@ h4 {
 .about>p {
   text-align: justify;
   letter-spacing: 2px;
+  text-transform: capitalize;
   font-size: 1.2rem;
   color: #64ffda;
   padding: 0 1rem;
