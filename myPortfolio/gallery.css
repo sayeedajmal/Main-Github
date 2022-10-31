@@ -2,6 +2,8 @@ html {
     font-size: 4rem;
     padding: 0;
     margin: 0;
+    font-family: 'JetBrains Mono';
+    src: url('/images/JetBrainsMono.ttf');
 }
 
 .greenleaf {

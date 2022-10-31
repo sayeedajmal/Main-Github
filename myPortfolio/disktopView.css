@@ -2,6 +2,8 @@
   html {
     font-size: 1.2rem;
     cursor: url("/images/cursor.svg"), auto;
+    font-family: 'JetBrains Mono';
+    src: url('/images/JetBrainsMono.ttf');
 
   }
 
