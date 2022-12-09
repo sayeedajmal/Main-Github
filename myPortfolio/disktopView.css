@@ -33,8 +33,25 @@
     display: none;
   }
 
-  .home_lap {
+  .userImage {
+    --w: 20vw;
     display: block;
+    width: var(--w);
+    float: right;
+    margin-right: 3rem;
+    margin-top: 7rem;
+    aspect-ratio: 1;
+    outline: var(--w) solid #022a5b9f;
+    outline-offset: calc(var(--w)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 50%;
+  }
+
+  .userImage:hover {
+    outline: 8px solid white;
+    outline-offset: 20px;
+    margin-right: 5rem;
   }
 
   .container>h2 {
@@ -48,7 +65,7 @@
 
   .container>h3 {
     font-size: 2rem;
-    margin-right: 20%;
+    margin-right: 40%;
     margin-left: 3rem;
   }
 
@@ -72,7 +89,7 @@
     padding: 1rem;
     font-size: 1rem;
     background-color: #022a5b;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .about_header {
@@ -106,7 +123,7 @@
     margin-top: 7rem;
     width: 20vw;
     position: absolute;
-    margin-right: -7rem;
+    margin-right: 0;
   }
 
   .box {
