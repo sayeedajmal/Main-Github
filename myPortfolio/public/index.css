@@ -1,11 +1,20 @@
-html {
+@font-face {
   font-family: 'mova';
   src: url('/images/Mova.otf');
 }
 
+@font-face {
+  font-family: 'mom';
+  src: url('/images/Mom\ Regular.ttf');
+}
+
 body {
-  background-color: #022a5b;
+  user-select: none;
+  background-color: hsl(213, 96%, 18%);
+  font-family: 'mova';
   padding: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .nav_bar {
@@ -22,8 +31,7 @@ body {
   padding-top: 6px;
   padding-bottom: 5px;
   color: white;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+
 }
 
 .nav_bar>a>img {
@@ -144,7 +152,7 @@ body {
   margin-top: 2rem;
   padding-left: 2rem;
   font-size: large;
-  color: #64ffda;
+  color: #63ffb1;
 }
 
 .container>h5,
@@ -154,17 +162,14 @@ h4 {
   text-transform: uppercase;
   margin-left: 1rem;
   font-size: 1.7rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 .container>h3 {
-  color: rgb(184, 190, 245);
+  color: #c4deff;
 }
 
 .container>p {
   color: #c4deff;
-  font-family: cursive;
   font-size: 1.2rem;
   padding: 1rem;
 }
@@ -183,6 +188,7 @@ h4 {
   color: #64ffda;
   outline: none;
   margin-top: 3rem;
+  outline: auto;
   padding: 0.4rem;
   font-size: 1.2rem;
   text-decoration: none;
@@ -208,8 +214,7 @@ h4 {
 }
 
 .about_header>text {
-  color: #64ffda;
-  font-family: sans-serif;
+  color: #63ffb1;
   font-size: x-large;
 }
 
@@ -217,13 +222,10 @@ h4 {
   color: white;
   margin-left: 1.1rem;
   font-size: 1.5rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 .im {
-  font-family: 'mova';
-  color: #52fca7;
+  color: #63ffb1;
 }
 
 .about {
@@ -235,9 +237,9 @@ h4 {
   text-align: justify;
   letter-spacing: 2px;
   text-transform: capitalize;
-  font-size: 1.2rem;
-  color: #64ffda;
-  padding: 0 1rem;
+  font-size: 1.4rem;
+  color: #63ffb1;
+  padding: 0 0.5rem;
 }
 
 .techno {
@@ -254,6 +256,7 @@ h4 {
   border: 2px solid lightblue;
   border-radius: 10px;
   list-style: none;
+  padding: 0.3rem;
   color: #beeaff;
   font-size: 1.2rem;
   justify-content: space-around;
@@ -274,10 +277,11 @@ h4 {
 .gallery {
   background-color: #135ed3;
   color: #64ffda;
-  padding: 0.5rem;
+  padding: 3px;
   margin-right: 1rem;
   margin-top: 0.5rem;
   margin-left: auto;
+  outline: auto;
   text-decoration: none;
   border-radius: 50px;
   float: right;
@@ -326,12 +330,20 @@ h4 {
   padding: 1rem;
 }
 
+.Projects>img {
+  width: 2rem;
+  display: block;
+  float: right;
+  margin-right: 0.3rem;
+  margin-top: -3.5rem;
+}
+
 .Projects>ol>li {
   color: white;
   list-style: disc;
   line-height: 1.5rem;
   padding: 3px;
-  text-align: justify;
+  /* text-align: justify; */
   margin-right: 1rem;
   text-transform: capitalize;
 }

@@ -1,9 +1,17 @@
 html {
     font-size: 4rem;
     padding: 0;
+    font-family: 'mom';
     margin: 0;
-    font-family: 'JetBrains Mono';
-    src: url('/images/JetBrainsMono.ttf');
+}
+
+@font-face {
+    font-family: 'mom';
+    src: url('/images/Mom\ Regular.ttf');
+}
+
+body {
+    background-color: #203753;
 }
 
 .greenleaf {
@@ -18,15 +26,15 @@ html {
 h5 {
     text-shadow: 2px 2px 4px #287ce5;
     display: block;
-    margin-top: -6.5rem;
-    font-size: 0.5rem;
+    margin-top: -7rem;
+    font-size: 1rem;
     margin-left: 0.5rem;
     color: rgb(255, 255, 255);
 }
 
 .green>p {
     text-shadow: 2px 2px 4px #287ce5;
-    font-size: 0.3rem;
+    font-size: 0.5rem;
     font-weight: bold;
     stroke-width: 5px;
     color: white;
@@ -43,7 +51,7 @@ h5 {
 .skills {
     background-color: white;
     display: block;
-    margin-top: 1rem;
+    background-color: #203753;
 }
 
 .about_column {
@@ -99,12 +107,12 @@ h5 {
     }
 
     h5 {
-        font-size: 0.7rem;
+        font-size: 1.5rem;
         display: block;
     }
 
     .green>p {
-        font-size: 0.4rem;
+        font-size: 0.8rem;
         margin-left: 1rem;
         margin-right: 0rem;
     }
