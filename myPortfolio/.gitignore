@@ -64,9 +64,3 @@ node_modules/
 
 # dotenv environment variables file
 .env
-.firebase
-.firebaserc
-firebase.json
-package-lock.json
-package.json
-public/

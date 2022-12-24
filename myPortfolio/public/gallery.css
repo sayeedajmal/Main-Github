@@ -1,0 +1,155 @@
+html {
+    font-size: 4rem;
+    padding: 0;
+    font-family: 'mom';
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'mom';
+    src: url('/images/Mom\ Regular.ttf');
+}
+
+body {
+    background-color: #203753;
+}
+
+.greenleaf {
+    display: block;
+    width: 98%;
+    border: 3px solid lightblue;
+    height: 60vh;
+    border-radius: 10px;
+    float: none;
+}
+
+h5 {
+    text-shadow: 2px 2px 4px #287ce5;
+    display: block;
+    margin-top: -7rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.green>p {
+    text-shadow: 2px 2px 4px #287ce5;
+    font-size: 0.5rem;
+    font-weight: bold;
+    stroke-width: 5px;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    line-height: 0.5rem;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+
+.skills {
+    background-color: white;
+    display: block;
+    background-color: #203753;
+}
+
+.about_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+.about_column>img {
+    width: 5rem;
+    border: 3px solid rgb(27, 26, 26);
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.Footer {
+    margin: auto;
+    width: 90%;
+    /*  margin-top: 4rem; */
+    height: 5vh;
+    background-color: #287ce5;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin-top: 0.3rem;
+}
+
+.Footer>a>img {
+    height: 3vh;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 25%;
+    background: white;
+}
+
+.Footer>a {
+    font-size: 0px;
+}
+
+/* DESKTOP VIEW =========================== */
+@media screen and (min-width: 814px) {
+    .green {
+        margin-bottom: 1rem;
+    }
+
+    .greenleaf {
+        display: block;
+        margin-top: 0.3rem;
+        width: 100%;
+        opacity: 1;
+        height: 70vh;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .green>p {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        margin-right: 0rem;
+    }
+
+    .green>button:hover {
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .skills {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .about_column {
+        transition: transform 1s;
+        margin-left: 0.3rem;
+    }
+
+    .about_column>img:hover {
+        color: white;
+        border-radius: 10px;
+        filter: drop-shadow(12px 10px 3px black);
+        transform: scale(1.2);
+        transition: transform 0.8s;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .about_column>img {
+        width: 5rem;
+        transition: transform 1s;
+        border-radius: 5px;
+    }
+}

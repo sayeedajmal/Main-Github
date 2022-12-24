@@ -1,0 +1,136 @@
+@media screen and (min-width: 810px) {
+    html {
+        font-size: 1.2rem;
+        cursor: url("/images/cursor.svg"), auto;
+        font-family: 'JetBrains Mono';
+        src: url('/images/JetBrainsMono.ttf');
+
+    }
+
+    body {
+        background-color: #022a5b;
+        padding: 0;
+    }
+
+    .nav_bar {
+        width: 99vw;
+        top: 0.5rem;
+        border-radius: 10px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    .mobile_navbar {
+        display: none;
+    }
+
+    .nav_bar>h3 {
+        margin-right: 40%;
+    }
+
+    /* STOPING THE HOVERING OF NAV-BAR */
+    .panel {
+        display: none;
+    }
+
+    .userImage {
+        --w: 20vw;
+        display: block;
+        width: var(--w);
+        float: right;
+        margin-right: 3rem;
+        margin-top: 7rem;
+        aspect-ratio: 1;
+        outline: var(--w) solid #022a5b9f;
+        outline-offset: calc(var(--w)/-2);
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 50%;
+    }
+
+    .userImage:hover {
+        outline: 8px solid white;
+        outline-offset: 20px;
+        margin-right: 5rem;
+    }
+
+    .container>h2 {
+        font-size: 1.5rem;
+    }
+
+    .container>h5,
+    h4 {
+        font-size: 2rem;
+    }
+
+    .container>h3 {
+        font-size: 2rem;
+        margin-right: 40%;
+        margin-left: 3rem;
+    }
+
+    .container>p {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        margin-right: 3rem;
+        margin-right: 30%;
+    }
+
+    .container>a {
+        padding: 0.5rem;
+        font-size: 1rem;
+        color: #28ffa3;
+        cursor: url('/images/pointer_cursor.png'), auto;
+        transition: 0.5s;
+    }
+
+    .container>a:hover,
+    .gallery:hover {
+        padding: 1rem;
+        font-size: 1rem;
+        background-color: #022a5b;
+        transition: 0.3s;
+    }
+
+    .about_header {
+        margin-top: 7rem;
+        padding-left: 5rem;
+    }
+
+    .about_header::after {
+        width: 60%;
+    }
+
+    .about>p {
+        margin-left: 4rem;
+        font-size: 1.5rem;
+        width: 40%;
+    }
+
+    .skills_list {
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: auto;
+    }
+
+    .avtar {
+        float: right;
+    }
+
+
+
+    .avtar>img {
+        margin-top: 7rem;
+        width: 20vw;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    .box {
+        display: contents;
+    }
+
+    .Projects>ol>li {
+        list-style-position: inside;
+    }
+}
