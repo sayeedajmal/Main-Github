@@ -10,7 +10,7 @@
 
 body {
     user-select: none;
-    background-color: hsl(213, 96%, 18%);
+    background-color: hsl(213, 65%, 15%);
     font-family: 'mova';
     padding: 0;
     font-size: 20px;
@@ -22,7 +22,7 @@ body {
     position: fixed;
     align-items: center;
     height: 2rem;
-    background-color: #1057ad;
+    background-color: hsl(213, 65%, 15%);
     width: 97%;
     border-radius: 10px;
     top: 0;
@@ -31,7 +31,6 @@ body {
     padding-top: 6px;
     padding-bottom: 5px;
     color: white;
-
 }
 
 .nav_bar>a>img {
@@ -152,7 +151,7 @@ body {
     margin-top: 2rem;
     padding-left: 2rem;
     font-size: large;
-    color: #63ffb1;
+    color: #73eda9;
 }
 
 .container>h5,
@@ -184,9 +183,8 @@ h4 {
 
 .container>a {
     height: 3rem;
-    background-color: #135ed3;
-    color: #64ffda;
-    outline: none;
+    background-color: #14283f;
+    color: white;
     margin-top: 3rem;
     outline: auto;
     padding: 0.4rem;
@@ -214,7 +212,7 @@ h4 {
 }
 
 .about_header>text {
-    color: #63ffb1;
+    color: #73eda9;
     font-size: x-large;
 }
 
@@ -225,7 +223,7 @@ h4 {
 }
 
 .im {
-    color: #63ffb1;
+    color: #73eda9;
 }
 
 .about {
@@ -238,7 +236,7 @@ h4 {
     letter-spacing: 2px;
     text-transform: capitalize;
     font-size: 1.4rem;
-    color: #63ffb1;
+    color: #73eda9;
     padding: 0 0.5rem;
 }
 
@@ -253,11 +251,11 @@ h4 {
     gap: 20px 10px;
     padding: 0px;
     overflow: hidden;
-    border: 2px solid lightblue;
+    border: 2px solid #73eda9;
     border-radius: 10px;
     list-style: none;
     padding: 0.3rem;
-    color: #beeaff;
+    color: white;
     font-size: 1.2rem;
     justify-content: space-around;
 }
@@ -267,21 +265,20 @@ h4 {
 }
 
 .skills_list li::before {
-    content: "▹";
+    content: "▹ ";
     left: 0px;
-    color: #64ffda;
+    color: #73eda9;
     font-size: var(--fz-sm);
     line-height: 12px;
 }
 
 .gallery {
-    background-color: #135ed3;
-    color: #64ffda;
-    padding: 3px;
+    padding: 7px;
     margin-right: 1rem;
     margin-top: 0.5rem;
     margin-left: auto;
     outline: auto;
+    color: white;
     text-decoration: none;
     border-radius: 50px;
     float: right;
@@ -319,7 +316,7 @@ h4 {
     padding-bottom: 0.1rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1c57ada1;
+    background-color: #173768a1;
     border-radius: 10px;
 }
 
@@ -362,7 +359,7 @@ h4 {
     width: 90%;
     margin-top: 4rem;
     height: auto;
-    background-color: #287ce5;
+    background-color: #154481;
     display: flex;
     border-radius: 20px;
     justify-content: space-around;
