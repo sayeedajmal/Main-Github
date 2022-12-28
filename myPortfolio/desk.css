@@ -77,9 +77,8 @@
     }
 
     .container>a {
-        padding: 0.5rem;
+        padding: 12px;
         font-size: 1rem;
-        color: #28ffa3;
         cursor: url('/images/pointer_cursor.png'), auto;
         transition: 0.5s;
     }

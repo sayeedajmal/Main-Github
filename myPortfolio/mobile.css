@@ -185,8 +185,7 @@ h4 {
 .container>a {
     height: 3rem;
     background-color: #135ed3;
-    color: #64ffda;
-    outline: none;
+    color: white;
     margin-top: 3rem;
     outline: auto;
     padding: 0.4rem;
@@ -276,12 +275,12 @@ h4 {
 
 .gallery {
     background-color: #135ed3;
-    color: #64ffda;
-    padding: 3px;
+    padding: 7px;
     margin-right: 1rem;
     margin-top: 0.5rem;
     margin-left: auto;
     outline: auto;
+    color: white;
     text-decoration: none;
     border-radius: 50px;
     float: right;
