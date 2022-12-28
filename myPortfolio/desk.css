@@ -7,11 +7,6 @@
 
     }
 
-    body {
-        background-color: #022a5b;
-        padding: 0;
-    }
-
     .nav_bar {
         width: 99vw;
         top: 0.5rem;
@@ -41,7 +36,7 @@
         margin-right: 3rem;
         margin-top: 7rem;
         aspect-ratio: 1;
-        outline: var(--w) solid #022a5b9f;
+        outline: var(--w) solid #09213f9f;
         outline-offset: calc(var(--w)/-2);
         cursor: pointer;
         transition: 0.3s;
@@ -74,6 +69,12 @@
         margin-left: 2rem;
         margin-right: 3rem;
         margin-right: 30%;
+        transition: ease-in 0.5s;
+    }
+
+    .container>p:hover {
+        transform: scale(1.1);
+        transition: ease-in-out 0.4s;
     }
 
     .container>a {
@@ -92,8 +93,9 @@
     }
 
     .about_header {
-        margin-top: 7rem;
+        margin-top: 3rem;
         padding-left: 5rem;
+        margin-bottom: 2rem;
     }
 
     .about_header::after {
@@ -109,17 +111,24 @@
     .skills_list {
         font-size: 1.5rem;
         padding: 1rem;
-        margin: auto;
+        width: 80%;
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        transition: ease-in-out 0.4s;
+    }
+
+    .skills_list:hover {
+        transform: scale(1.1);
+        transition: ease-in 0.4s;
     }
 
     .avtar {
         float: right;
     }
 
-
-
     .avtar>img {
-        margin-top: 7rem;
+        margin-top: 3rem;
         width: 20vw;
         position: absolute;
         margin-right: 0;
@@ -129,7 +138,35 @@
         display: contents;
     }
 
+    .Projects {
+        width: 80%;
+        transition: ease-in 0.4s;
+    }
+
+    .Projects:hover {
+        transform: scale(1.1);
+        font-size: larger;
+        position: static;
+        border-radius: 20px;
+        border: 1px solid white;
+        transition: ease-out 0.4s;
+    }
+
     .Projects>ol>li {
         list-style-position: inside;
+    }
+
+    .Footer {
+        width: 70%;
+        transition: ease-in 0.4s;
+    }
+
+    .Footer:hover {
+        transform: scale(1.2);
+        transition: ease-in 0.4s;
+    }
+
+    .Footer>a>img {
+        height: 4vh;
     }
 }
