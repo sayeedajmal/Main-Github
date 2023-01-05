@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'mova';
+    src: url('/images/Mova.otf');
+}
+
+@font-face {
+    font-family: 'mom';
+    src: url('/images/Mom\ Regular.ttf');
+}
+
+body {
+    user-select: none;
+    background-color: hsl(213, 65%, 15%);
+    font-family: 'mova';
+    padding: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.nav_bar {
+    z-index: 1;
+    position: fixed;
+    align-items: center;
+    height: 2rem;
+    background-color: hsl(213, 65%, 15%);
+    width: 97%;
+    border-radius: 10px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.nav_bar>a>img {
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    border-radius: 20px;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.userImage {
+    display: none;
+}
+
+/* THIS IS FOR HOVERING MOBILE MENU */
+.menu {
+    position: relative;
+}
+
+/* ============================MOBILE NEVBAR======================================= */
+.mobile_navbar {
+    font-size: 1.5rem;
+    float: right;
+}
+
+.open_Panel>img {
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0.3rem;
+    position: absolute;
+}
+
+.close_Panel>img {
+    display: flex;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0.3rem;
+    justify-content: flex-end;
+}
+
+.panel {
+    background-color: #071a32;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    transform-origin: top right;
+    display: block;
+    text-align: center;
+    left: 0rem;
+}
+
+.contact {
+    height: 90vh;
+    margin: 0.5rem;
+}
+
+.imageCard {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #2a8bff;
+    height: 22vh;
+}
+
+.imageCard>img {
+    height: 70%;
+    aspect-ratio: 1;
+    box-shadow: 1px 0px 16px 3px #0a0a0a;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.contactLink {
+    height: 50%;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.contactLink>h3 {
+    padding-top: 1rem;
+    margin: 0;
+    color: #14283f;
+}
+
+.links {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links>a {
+    height: 2rem;
+    border-radius: 10%;
+}
+
+.icons {
+    border-radius: 10%;
+    height: 2rem;
+}
+
+
+
+.container,
+.about {
+    display: block;
+    margin: auto;
+    margin-top: 4.5rem;
+    width: 90%;
+}
+
+.container>h2 {
+    margin: 0;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    font-size: large;
+    color: #73eda9;
+}
+
+.container>h5,
+h4 {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+}
+
+.container>h3 {
+    color: #c4deff;
+}
+
+.container>p {
+    color: #c4deff;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.container>p>a {
+    color: white;
+}
+
+.container>p>a:visited {
+    color: white;
+}
+
+.container>a {
+    height: 3rem;
+    background-color: #14283f;
+    color: white;
+    margin-top: 3rem;
+    outline: auto;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 1rem;
+    cursor: url('/images/pointer_cursor.png'), auto;
+}
+
+.about_header {
+    display: flex;
+    width: auto;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.about_header::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin-left: 7px;
+    background-color: white;
+}
+
+.about_header>text {
+    color: #73eda9;
+    font-size: x-large;
+}
+
+.about_header>h3 {
+    color: white;
+    margin-left: 1.1rem;
+    font-size: 1.5rem;
+}
+
+.im {
+    color: #73eda9;
+}
+
+.about {
+    margin-top: 1rem;
+    height: fit-content;
+}
+
+.about>p {
+    text-align: justify;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    color: #73eda9;
+    padding: 0 0.5rem;
+}
+
+.techno {
+    color: #beeaff !important;
+    margin-top: 3rem;
+}
+
+.skills_list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 500px));
+    gap: 20px 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: 2px solid #73eda9;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0.3rem;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: space-around;
+}
+
+.skills_list li {
+    padding-left: 20px;
+}
+
+.skills_list li::before {
+    content: "▹ ";
+    left: 0px;
+    color: #73eda9;
+    font-size: var(--fz-sm);
+    line-height: 12px;
+}
+
+.gallery {
+    padding: 7px;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-left: auto;
+    outline: auto;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    float: right;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: 0.5s;
+    cursor: url('/images/pointer_cursor.png'), auto;
+}
+
+.avtar {
+    justify-content: center;
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.avtar>img {
+    margin-top: 1rem;
+    width: 40vw;
+    filter: drop-shadow(2px 2px 3px #db8920);
+}
+
+.box {
+    width: 40vw;
+    border: 2px solid #64ffda;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: -50px;
+    z-index: -1;
+}
+
+.Projects {
+    width: 90%;
+    padding-bottom: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #173768a1;
+    border-radius: 10px;
+}
+
+.Projects>h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding: 1rem;
+}
+
+.Projects>img {
+    width: 2rem;
+    display: block;
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: -3.5rem;
+}
+
+.Projects>ol>li {
+    color: white;
+    list-style: disc;
+    line-height: 1.5rem;
+    padding: 3px;
+    /* text-align: justify; */
+    margin-right: 1rem;
+    text-transform: capitalize;
+}
+
+.projectLink {
+    height: 3vh;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 0.5%;
+    margin-top: 5%;
+    background: white;
+}
+
+.Footer {
+    margin: auto;
+    width: 90%;
+    margin-top: 4rem;
+    height: auto;
+    background-color: #154481;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.Footer>a>img {
+    height: 3vh;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 25%;
+    background: white;
+}
