@@ -131,10 +131,17 @@ h5 {
         justify-content: space-evenly;
     }
 
-    .about_column {
+    .about_column>img {
+        width: 5rem;
         transition: transform 1s;
+        border-radius: 5px;
+    }
+
+    .about_column {
+        transition: 0.3s;
         margin-left: 0.3rem;
     }
+
 
     .about_column>img:hover {
         color: white;
@@ -146,9 +153,5 @@ h5 {
         margin-top: 0.5rem;
     }
 
-    .about_column>img {
-        width: 5rem;
-        transition: transform 1s;
-        border-radius: 5px;
-    }
+
 }

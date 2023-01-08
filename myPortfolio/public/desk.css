@@ -84,6 +84,21 @@
         transition: 0.5s;
     }
 
+    .gallery {
+        animation: heart .5s infinite alternate;
+    }
+
+    @keyframes heart {
+        from {
+            transform: scale(0.7);
+        }
+
+        to {
+            transform: (scale1);
+        }
+
+    }
+
     .container>a:hover,
     .gallery:hover {
         padding: 1rem;

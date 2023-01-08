@@ -14,6 +14,16 @@
   <link rel="stylesheet" type="text/css" href="desk.css" />
 
   <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+
+  <script>
+    let docTitle = document.title;
+    window.addEventListener("blur", () => {
+      document.title = "Come Back 😥";
+    });
+    window.addEventListener("focus", () => {
+      document.title = docTitle;
+    });
+  </script>
 </head>
 
 <body>
