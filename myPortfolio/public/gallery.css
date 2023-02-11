@@ -146,7 +146,7 @@ h5 {
     .about_column>img:hover {
         color: white;
         border-radius: 10px;
-        filter: drop-shadow(12px 10px 3px black);
+        filter: drop-shadow(12px 10px 3px rgb(4, 109, 71));
         transform: scale(1.2);
         transition: transform 0.8s;
         margin-bottom: 0.5rem;
