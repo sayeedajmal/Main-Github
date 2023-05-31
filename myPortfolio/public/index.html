@@ -114,6 +114,32 @@
     </p>
 
     <a href="https://github.com/sayeedajmal" target="blank">Github 👨🏻‍💻</a>
+
+    <!-- Resume PopUp -->
+    <a id="resume" onclick="showPopup()">RESUME</a>
+    <div class="popup" id="popup">
+      <div id="close_Panel">
+        <img id="close_image" style="height: 3rem;" onclick="closePopup() " src="/images/close.png">
+      </div>
+      <div class="popup-content">
+        <img class="popup-image" src="/images/resume.jpg" alt="Resume Image">
+      </div>
+    </div>
+
+    <script>
+      function showPopup() {
+        var popup = document.getElementById("popup");
+        popup.style.display = "flex";
+        document.body.style.overflow = "hidden";
+      }
+      function closePopup() {
+        var panel = document.getElementById("popup");
+        panel.style.display = "none";
+        document.body.style.overflow = "auto";
+
+      }
+    </script>
+    <!-- ========================= -->
   </div>
 
   <div class="about_header">
