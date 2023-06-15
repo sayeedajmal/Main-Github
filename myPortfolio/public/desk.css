@@ -1,187 +1,186 @@
 @media screen and (min-width: 810px) {
     html {
-        font-size: 1.2rem;
-        cursor: url("/images/cursor.svg"), auto;
-        font-family: 'JetBrains Mono';
-        src: url('/images/JetBrainsMono.ttf');
-
+      font-size: 1.2rem;
+      cursor: url("/images/cursor.svg"), auto;
+      font-family: "JetBrains Mono";
+      src: url("/images/JetBrainsMono.ttf");
     }
-
+  
     .nav_bar {
-        width: 99vw;
-        top: 0.5rem;
-        border-radius: 10px;
-        padding-top: 1px;
-        padding-bottom: 1px;
+      width: 99vw;
+      top: 0.5rem;
+      border-radius: 10px;
+      padding-top: 1px;
+      padding-bottom: 1px;
     }
-
+  
     .mobile_navbar {
-        display: none;
+      display: none;
     }
-
-    .nav_bar>h3 {
-        margin-right: 40%;
+  
+    .nav_bar > h3 {
+      margin-right: 40%;
     }
-
+  
     /* STOPING THE HOVERING OF NAV-BAR */
     .panel {
-        display: none;
+      display: none;
     }
-
+  
     .userImage {
-        --w: 30vw;
-        display: block;
-        width: var(--w);
-        float: right;
-        margin-right: 3rem;
-        margin-top: 3rem;
-        aspect-ratio: 1;
-        outline: var(--w) solid #09213f9f;
-        outline-offset: calc(var(--w)/-2);
-        cursor: pointer;
-        transition: 0.3s;
-        border-radius: 50%;
+      --w: 30vw;
+      display: block;
+      width: var(--w);
+      float: right;
+      margin-right: 3rem;
+      margin-top: 3rem;
+      aspect-ratio: 1;
+      outline: var(--w) solid #09213f9f;
+      outline-offset: calc(var(--w) / -2);
+      cursor: pointer;
+      transition: 0.3s;
+      border-radius: 50%;
     }
-
+  
     .userImage:hover {
-        outline: 8px solid white;
-        outline-offset: 20px;
-        margin-right: 5rem;
+      outline: 8px solid white;
+      outline-offset: 20px;
+      margin-right: 5rem;
     }
-
-    .container>h2 {
-        font-size: 1.5rem;
+  
+    .container > h2 {
+      font-size: 1.5rem;
     }
-
-    .container>h5,
+  
+    .container > h5,
     h4 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
-
-    .container>h3 {
-        font-size: 2rem;
-        margin-right: 40%;
-        margin-left: 3rem;
+  
+    .container > h3 {
+      font-size: 2rem;
+      margin-right: 40%;
+      margin-left: 3rem;
     }
-
-    .container>p {
-        font-size: 1.5rem;
-        margin-left: 2rem;
-        margin-right: 3rem;
-        margin-right: 30%;
-        transition: ease-in 0.5s;
+  
+    .container > p {
+      font-size: 1.5rem;
+      margin-left: 2rem;
+      margin-right: 3rem;
+      margin-right: 30%;
+      transition: ease-in 0.5s;
     }
-
-    .container>p:hover {
-        transform: scale(1.1);
-        transition: ease-in-out 0.4s;
+  
+    .container > p:hover {
+      transform: scale(1.1);
+      transition: ease-in-out 0.4s;
     }
-
-    .container>a {
-        padding: 12px;
-        font-size: 1rem;
-        cursor: url('/images/pointer_cursor.png'), auto;
-        transition: 0.5s;
+  
+    .container > a {
+      padding: 12px;
+      font-size: 1rem;
+      cursor: url("/images/pointer_cursor.png"), auto;
+      transition: 0.5s;
     }
-
+  
     .gallery {
-        animation: heart .5s infinite alternate;
+      animation: heart 0.5s infinite alternate;
     }
-
+  
     @keyframes heart {
-        from {
-            transform: scale(0.7);
-        }
-
-        to {
-            transform: (scale1);
-        }
-
+      from {
+        transform: scale(0.7);
+      }
+  
+      to {
+        transform: (scale1);
+      }
     }
-
-    .container>a:hover,
+  
+    .container > a:hover,
     .gallery:hover {
-        padding: 1rem;
-        font-size: 1rem;
-        background-color: #022a5b;
-        transition: 0.3s;
+      padding: 1rem;
+      font-size: 1rem;
+      background-color: #022a5b;
+      transition: 0.3s;
     }
-
+  
     .about_header {
-        margin-top: 3rem;
-        padding-left: 5rem;
-        margin-bottom: 2rem;
+      margin-top: 3rem;
+      padding-left: 5rem;
+      margin-bottom: 2rem;
     }
-
+  
     .about_header::after {
-        width: 60%;
+      width: 60%;
     }
-
-    .about>p {
-        margin-left: 4rem;
-        font-size: 1.5rem;
-        width: 40%;
+  
+    .about > p {
+      margin-left: 4rem;
+      font-size: 1.5rem;
+      width: 40%;
     }
-
+  
     .skills_list {
-        font-size: 1.5rem;
-        padding: 1rem;
-        width: 80%;
-        margin-top: 3rem;
-        margin-left: auto;
-        margin-right: auto;
-        transition: ease-in-out 0.4s;
+      font-size: 1.5rem;
+      padding: 1rem;
+      width: 80%;
+      margin-top: 3rem;
+      margin-left: auto;
+      margin-right: auto;
+      transition: ease-in-out 0.4s;
     }
-
+  
     .skills_list:hover {
-        transform: scale(1.1);
-        transition: ease-in 0.4s;
+      transform: scale(1.1);
+      transition: ease-in 0.4s;
     }
-
+  
     .avtar {
-        float: right;
+      float: right;
     }
-
-    .avtar>img {
-        margin-top: 3rem;
-        width: 20vw;
-        position: absolute;
-        margin-right: 0;
+  
+    .avtar > img {
+      margin-top: 3rem;
+      width: 20vw;
+      position: absolute;
+      margin-right: 0;
     }
-
+  
     .box {
-        display: contents;
+      display: contents;
     }
-
+  
     .Projects {
-        width: 80%;
-        transition: ease-in 0.4s;
+      width: 80%;
+      /*   transition: ease-in 0.4s; */
     }
-
+  
     .Projects:hover {
-        transform: scale(1.1);
-        font-size: larger;
-        position: static;
-        border-radius: 20px;
-        border: 1px solid white;
-        transition: ease-out 0.4s;
+      transform: scale(1.1);
+      font-size: larger;
+      position: static;
+      border-radius: 20px;
+      border: 1px solid white;
+      transition: ease-out 0.4s;
     }
-
-    .Projects>ol>li {
-        list-style-position: inside;
+  
+    .Projects > ol > li {
+      list-style-position: inside;
     }
-
+  
     .Footer {
-        width: 70%;
-        transition: ease-in 0.4s;
+      width: 70%;
+      transition: ease-in 0.4s;
     }
-
+  
     .Footer:hover {
-        transform: scale(1.2);
-        transition: ease-in 0.4s;
+      transform: scale(1.2);
+      transition: ease-in 0.4s;
     }
-
-    .Footer>a>img {
-        height: 4vh;
+  
+    .Footer > a > img {
+      height: 4vh;
     }
-}
+  }
+  
