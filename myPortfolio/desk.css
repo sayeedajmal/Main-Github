@@ -8,7 +8,7 @@
 
   .nav_bar {
     width: 99vw;
-    top: 0.5rem;
+    /* top: 0.5rem; */
     border-radius: 10px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -84,7 +84,7 @@
   }
 
   .gallery {
-    animation: heart 0.5s infinite alternate;
+    animation: heart 0.8s infinite alternate;
   }
 
   @keyframes heart {
@@ -174,9 +174,14 @@
     transition: ease-in 0.4s;
   }
 
-  .Footer:hover {
+    .Footer:hover {
     transform: scale(1.2);
     transition: ease-in 0.4s;
+  }
+
+  .Footer > a:hover {
+    transform: scale(1.2);
+    transition: ease-in 0.3s;
   }
 
   .Footer > a > img {

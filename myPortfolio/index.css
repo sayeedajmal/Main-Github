@@ -1,3 +1,14 @@
+:root {
+  --background-color: -webkit-linear-gradient(
+    272deg,
+    #ffb800,
+    #22dc12,
+    #0e9dee
+  );
+  --dark-color: hsl(213, 65%, 15%);
+  --white-color: #ffffff;
+  --lite-green: #73eda9;
+}
 @font-face {
   font-family: "mova";
   src: url("/images/Mova.otf");
@@ -7,7 +18,6 @@
   font-family: "mom";
   src: url("/images/Mom\ Regular.ttf");
 }
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -21,7 +31,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: -webkit-linear-gradient(272deg, #ffb800, #22dc12, #0e9dee);
+  background: var(--background-color);
   border-radius: 20px;
 }
 
@@ -32,7 +42,7 @@
 
 body {
   user-select: none;
-  background-color: hsl(213, 65%, 15%);
+  background-color: var(--dark-color);
   font-family: "mova";
   padding: 0;
   font-size: 20px;
@@ -44,7 +54,7 @@ body {
   position: fixed;
   align-items: center;
   height: 2rem;
-  background-color: hsl(213, 65%, 15%);
+  background-color: var(--dark-color);
   width: 97%;
   border-radius: 10px;
   top: 0;
@@ -52,7 +62,7 @@ body {
   justify-content: space-between;
   padding-top: 6px;
   padding-bottom: 5px;
-  color: white;
+  color: var(--white-color);
 }
 
 .nav_bar > a > img {
@@ -83,7 +93,7 @@ body {
 .open_Panel > img {
   height: 2rem;
   border-radius: 50%;
-  background-color: white;
+  background-color: var(--white-color);
   margin: 0.3rem;
   position: absolute;
 }
@@ -92,7 +102,7 @@ body {
   display: flex;
   height: 2rem;
   border-radius: 50%;
-  background-color: white;
+  background-color: var(--white-color);
   margin: 0.3rem;
   justify-content: flex-end;
 }
@@ -102,7 +112,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  color: white;
+  color: var(--white-color);
   transform-origin: top right;
   display: block;
   text-align: center;
@@ -131,7 +141,7 @@ body {
 
 .contactLink {
   height: 50%;
-  background-color: white;
+  background-color: var(--white-color);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -151,7 +161,7 @@ body {
 /* RESUME CSS */
 #resume {
   flex-direction: column;
-  float: right;
+/*   float: right; */
   height: 1rem;
   margin-top: 4rem;
 }
@@ -216,13 +226,13 @@ body {
   margin-top: 2rem;
   padding-left: 2rem;
   font-size: large;
-  color: #73eda9;
+  color: rgba(255, 183, 2, 0.822);
 }
 
 .container > h5,
 h4 {
   margin: 0;
-  background: -webkit-linear-gradient(272deg, #ffb800, #22dc12, #0e9dee);
+  background: var(--background-color);
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -244,19 +254,19 @@ h4 {
 }
 
 .container > p > a {
-  color: white;
+  color: var(--white-color);
 }
 
 .container > p > a:visited {
-  color: white;
+  color: var(--white-color);
 }
 
 .container > a {
   height: 3rem;
   background-color: #14283f;
-  color: white;
+  color: var(--white-color);
   margin-top: 3rem;
-  outline: auto;
+ /*  outline: auto; */
   padding: 0.4rem;
   font-size: 1.2rem;
   text-decoration: none;
@@ -278,16 +288,16 @@ h4 {
   width: 50%;
   height: 1px;
   margin-left: 7px;
-  background-color: white;
+  background-color: var(--dark-color);
 }
 
 .about_header > text {
-  color: #73eda9;
+  color: var(--lite-green);
   font-size: x-large;
 }
 
 .about_header > h3 {
-  color: white;
+  color: var(--white-color);
   margin-left: 1.1rem;
   font-size: 1.5rem;
 }
@@ -309,7 +319,7 @@ h4 {
   letter-spacing: 2px;
   text-transform: capitalize;
   font-size: 1.4rem;
-  color: #73eda9;
+  color: var(--lite-green);
   padding: 0 0.5rem;
 }
 
@@ -324,11 +334,11 @@ h4 {
   gap: 20px 10px;
   padding: 0px;
   overflow: hidden;
-  border: 2px solid #73eda9;
+  border: 2px solid var(--lite-green);
   border-radius: 10px;
   list-style: none;
   padding: 0.3rem;
-  color: white;
+  color: var(--white-color);
   font-size: 1.2rem;
   justify-content: space-around;
 }
@@ -340,7 +350,7 @@ h4 {
 .skills_list li::before {
   content: "▹ ";
   left: 0px;
-  color: #73eda9;
+  color: var(--lite-green);
   font-size: var(--fz-sm);
   line-height: 12px;
 }
@@ -351,7 +361,7 @@ h4 {
   margin-top: 0.5rem;
   margin-left: auto;
   outline: auto;
-  color: white;
+  color: var(--white-color);
   text-decoration: none;
   border-radius: 50px;
   float: right;
@@ -371,12 +381,12 @@ h4 {
 .avtar > img {
   margin-top: 1rem;
   width: 40vw;
-  filter: drop-shadow(2px 2px 3px #73eda9);
+  filter: drop-shadow(2px 2px 3px var(--lite-green));
 }
 
 .box {
   width: 40vw;
-  border: 2px solid #64ffda;
+  border: 2px solid var(--lite-green);
   border-radius: 10px;
   position: relative;
   top: 10px;
@@ -394,9 +404,9 @@ h4 {
 }
 
 .Projects > h3 {
-  color: white;
+  color: var(--white-color);
   font-size: 1.2rem;
-  background: -webkit-linear-gradient(229deg, #ffb800, #45a5d3, #5cf54f);
+  background: -webkit-linear-gradient(306deg, #ffb800, #45a5d3, #5cf54f);
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -413,7 +423,7 @@ h4 {
 }
 
 .Projects > ol > li {
-  color: white;
+  color: var(--white-color);
   list-style: disc;
   font-size: 1rem;
   line-height: 1.3rem;
@@ -426,9 +436,9 @@ h4 {
 .projectLink {
   height: 3vh;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 1px solid var(--white-color);
   margin-left: 0.5%;
-  background: white;
+  background: var(--white-color);
 }
 
 .Footer {
@@ -445,7 +455,7 @@ h4 {
 .Footer > a > img {
   height: 3vh;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 1px solid var(--white-color);
   margin-top: 25%;
-  background: white;
+  background: var(--white-color);
 }
