@@ -18,13 +18,14 @@
     display: none;
   }
 
-  .nav_bar > h3 {
+  .nav_bar>h3 {
     margin-right: 40%;
   }
 
   /* STOPING THE HOVERING OF NAV-BAR */
   .panel {
     display: none;
+    transition: 0.5s ease-in;
   }
 
   .userImage {
@@ -35,10 +36,10 @@
     margin-right: 3rem;
     margin-top: 3rem;
     aspect-ratio: 1;
-    outline: var(--w) solid #09213f9f;
+    outline: 20vw solid #09213f9f;
     outline-offset: calc(var(--w) / -2);
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.4s;
     border-radius: 50%;
   }
 
@@ -48,22 +49,22 @@
     margin-right: 5rem;
   }
 
-  .container > h2 {
+  .container>h2 {
     font-size: 1.5rem;
   }
 
-  .container > h5,
+  .container>h5,
   h4 {
     font-size: 2rem;
   }
 
-  .container > h3 {
+  .container>h3 {
     font-size: 2rem;
     margin-right: 40%;
     margin-left: 3rem;
   }
 
-  .container > p {
+  .container>p {
     font-size: 1.5rem;
     margin-left: 2rem;
     margin-right: 3rem;
@@ -71,12 +72,12 @@
     transition: ease-in 0.5s;
   }
 
-  .container > p:hover {
+  .container>p:hover {
     transform: scale(1.1);
     transition: ease-in-out 0.4s;
   }
 
-  .container > a {
+  .container>a {
     padding: 12px;
     font-size: 1rem;
     cursor: url("/images/pointer_cursor.png"), auto;
@@ -97,7 +98,7 @@
     }
   }
 
-  .container > a:hover,
+  .container>a:hover,
   .gallery:hover {
     padding: 1rem;
     font-size: 1rem;
@@ -115,7 +116,7 @@
     width: 60%;
   }
 
-  .about > p {
+  .about>p {
     margin-left: 4rem;
     font-size: 1.5rem;
     width: 40%;
@@ -140,7 +141,7 @@
     float: right;
   }
 
-  .avtar > img {
+  .avtar>img {
     margin-top: 3rem;
     width: 20vw;
     position: absolute;
@@ -153,7 +154,7 @@
 
   .Projects {
     width: 80%;
-    /*   transition: ease-in 0.4s; */
+    transition: ease-in 0.3s;
   }
 
   .Projects:hover {
@@ -165,7 +166,7 @@
     transition: ease-out 0.4s;
   }
 
-  .Projects > ol > li {
+  .Projects>ol>li {
     list-style-position: inside;
   }
 
@@ -174,17 +175,17 @@
     transition: ease-in 0.4s;
   }
 
-    .Footer:hover {
+  .Footer:hover {
     transform: scale(1.2);
     transition: ease-in 0.4s;
   }
 
-  .Footer > a:hover {
+  .Footer>a:hover {
     transform: scale(1.2);
     transition: ease-in 0.3s;
   }
 
-  .Footer > a > img {
+  .Footer>a>img {
     height: 4vh;
   }
 }
