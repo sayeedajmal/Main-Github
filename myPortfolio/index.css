@@ -6,8 +6,9 @@
   --dark-color: hsl(213, 65%, 15%);
   --white-color: #ffffff;
   --lite-green: #73eda9;
-/*   scroll-snap-type: y mandatory;
- */}
+  /*   scroll-snap-type: y mandatory;
+ */
+}
 
 @font-face {
   font-family: "mova";
@@ -238,7 +239,6 @@ h4 {
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-left: 1rem;
   font-size: 1.7rem;
   text-transform: uppercase;
   margin-left: 1rem;
@@ -325,25 +325,26 @@ h4 {
   padding: 0 0.5rem;
 }
 
-.techno {
+/* .techno {
   color: #beeaff !important;
   margin-top: 3rem;
 }
-
+ */
 .skills_list {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 500px));
   gap: 20px 10px;
   padding: 0px;
   overflow: hidden;
-  border: 2px solid var(--lite-green);
-  border-radius: 10px;
+  border-radius: 5px;
   list-style: none;
   padding: 0.3rem;
   color: var(--white-color);
   font-size: 1.2rem;
   justify-content: space-around;
   scroll-snap-align: start;
+  margin: 1rem 1rem 0 1rem;
+  box-shadow: 0 0 3px var(--lite-green);
 }
 
 .skills_list li {
