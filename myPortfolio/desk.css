@@ -131,18 +131,18 @@
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
-    animation: pulse 1.3s infinite;
     transition: ease-in-out 0.4s;
+    animation: pulse 1.3s infinite;
   }
 
   @keyframes pulse {
     0% {
-      box-shadow: 0 0 0 0 white;
+      box-shadow: 0 0 0 0 hsl(212, 62%, 42%);
       ;
     }
 
     65% {
-      box-shadow: 0 0 0 10px transparent;
+      box-shadow: 0 0 0 15px transparent;
     }
 
     100% {
@@ -162,9 +162,6 @@
   .avtar>img {
     width: 20vw;
     margin-top: 0;
-    /*   margin-top: 3rem;
-    position: absolute;
-    margin-right: 0; */
   }
 
   .box {
