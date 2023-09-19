@@ -29,15 +29,14 @@
   }
 
   .userImage {
-    --w: 30vw;
     display: block;
-    width: var(--w);
+    width: 30vw;
     float: right;
     margin-right: 3rem;
     margin-top: 3rem;
     aspect-ratio: 1;
     outline: 20vw solid #09213f9f;
-    outline-offset: calc(var(--w) / -2);
+    outline-offset: calc(30vw / -2);
     cursor: pointer;
     transition: 0.4s;
     border-radius: 50%;
@@ -51,6 +50,33 @@
 
   .container>h2 {
     font-size: 1.5rem;
+  }
+
+  /* TYPING ANIMATION */
+  .container>h5 {
+    width: 16rem;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 2s steps(80), cursor_blink 0.7s step-end infinite;
+    white-space: nowrap;
+  }
+
+  @keyframes typing {
+    from {
+      width: 1%;
+    }
+  }
+
+  @keyframes cursor_blink {
+
+    from,
+    to {
+      border-color: transparent;
+    }
+
+    50% {
+      border-color: var(--lite-green);
+    }
   }
 
   .container>h5,
