@@ -19,7 +19,7 @@
 
 - 📫 How to reach me **sayeedajmala06@gmail.com**
 
-- 📄 Know about my experiences [https://sayeedthedev.firebaseapp.com](https://sayeedthedev.web.app)
+- 📄 Know about my experiences [https://sayeedthedev.web.app](https://sayeedthedev.web.app)
 
 - ⚡ Fun fact **Music, Shayri**
 
