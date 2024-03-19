@@ -1,7 +1,7 @@
 @media screen and (min-width: 810px) {
   html {
     font-size: 1.2rem;
-    cursor: url("/images/cursor.svg"), auto;
+    cursor: url("https://img.icons8.com/3d-fluency/32/cursor.png"), auto;
     font-family: "JetBrains Mono";
     src: url("/images/JetBrainsMono.ttf");
   }
@@ -18,7 +18,7 @@
     display: none;
   }
 
-  .nav_bar>h3 {
+  .nav_bar > h3 {
     margin-right: 40%;
   }
 
@@ -37,7 +37,7 @@
     aspect-ratio: 1;
     outline: 20vw solid #09213f9f;
     outline-offset: calc(30vw / -2);
-    cursor: pointer;
+    cursor: url("https://img.icons8.com/3d-fluency/45/nui2--v5.png"), auto;
     transition: 0.4s;
     border-radius: 50%;
   }
@@ -48,12 +48,12 @@
     margin-right: 5rem;
   }
 
-  .container>h2 {
+  .container > h2 {
     font-size: 1.5rem;
   }
 
   /* TYPING ANIMATION */
-  .container>h5 {
+  .container > h5 {
     width: 16rem;
     overflow: hidden;
     border-right: 2px solid;
@@ -68,7 +68,6 @@
   }
 
   @keyframes cursor_blink {
-
     from,
     to {
       border-color: transparent;
@@ -79,18 +78,18 @@
     }
   }
 
-  .container>h5,
+  .container > h5,
   h4 {
     font-size: 2rem;
   }
 
-  .container>h3 {
+  .container > h3 {
     font-size: 2rem;
     margin-right: 40%;
     margin-left: 3rem;
   }
 
-  .container>p {
+  .container > p {
     font-size: 1.5rem;
     margin-left: 2rem;
     margin-right: 3rem;
@@ -98,7 +97,7 @@
     transition: ease-in 0.5s;
   }
 
-  .container>p:hover {
+  .container > p:hover {
     transform: scale(1.1);
     transition: ease-in-out 0.4s;
   }
@@ -106,13 +105,12 @@
   .github {
     padding: 12px;
     font-size: 1rem;
-    cursor: url("/images/pointer_cursor.png"), auto;
     transition: 0.5s;
     animation: heart 0.8s infinite;
   }
 
   .gallery {
-    animation: pulse .8s infinite;
+    animation: pulse 0.8s infinite;
     outline: none;
   }
 
@@ -126,7 +124,7 @@
     }
   }
 
-  .container>a:hover,
+  .container > a:hover,
   .gallery:hover {
     padding: 1rem;
     font-size: 1rem;
@@ -144,7 +142,7 @@
     width: 60%;
   }
 
-  .about>p {
+  .about > p {
     margin-left: 4rem;
     font-size: 1.5rem;
     width: 40%;
@@ -164,7 +162,6 @@
   @keyframes pulse {
     0% {
       box-shadow: 0 0 0 0 hsl(212, 62%, 42%);
-      ;
     }
 
     65% {
@@ -185,7 +182,7 @@
     float: right;
   }
 
-  .avtar>img {
+  .avtar > img {
     width: 20vw;
     margin-top: 0;
   }
@@ -208,7 +205,7 @@
     animation: pulse 1.3s infinite;
   }
 
-  .Projects>ol>li {
+  .Projects > ol > li {
     list-style-position: inside;
   }
 
@@ -222,12 +219,12 @@
     transition: ease-in 0.4s;
   }
 
-  .Footer>a:hover {
+  .Footer > a:hover {
     transform: scale(1.2);
     transition: ease-in 0.3s;
   }
 
-  .Footer>a>img {
+  .Footer > a > img {
     height: 4vh;
   }
 }

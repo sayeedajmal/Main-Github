@@ -1,15 +1,23 @@
 :root {
-  --background-color: -webkit-linear-gradient(272deg,
-      #ffb800,
-      #22dc12,
-      #0e9dee);
+  --background-color: -webkit-linear-gradient(
+    272deg,
+    #ffb800,
+    #22dc12,
+    #0e9dee
+  );
   --dark-color: hsl(213, 65%, 15%);
   --white-color: #ffffff;
   --lite-green: #73eda9;
   /*   scroll-snap-type: y mandatory;
  */
+  --cursor-mouse: url("https://img.icons8.com/3d-fluency/45/nui2--v5.png"), auto;
 }
 
+a {
+  cursor: var(--cursor-mouse);
+  font-size: 1.3rem;
+  color: white;
+}
 @font-face {
   font-family: "mova";
   src: url("/images/Mova.otf");
@@ -67,7 +75,7 @@ body {
   color: var(--white-color);
 }
 
-.nav_bar>a>img {
+.nav_bar > a > img {
   margin-top: 0.3rem;
   margin-left: 0.5rem;
   border-radius: 20px;
@@ -92,7 +100,7 @@ body {
   float: right;
 }
 
-.open_Panel>img {
+.open_Panel > img {
   height: 2rem;
   border-radius: 50%;
   background-color: var(--white-color);
@@ -100,7 +108,7 @@ body {
   position: absolute;
 }
 
-.close_Panel>img {
+.close_Panel > img {
   display: flex;
   height: 2rem;
   border-radius: 50%;
@@ -133,7 +141,7 @@ body {
   height: 22vh;
 }
 
-.imageCard>img {
+.imageCard > img {
   height: 70%;
   aspect-ratio: 1;
   box-shadow: 1px 0px 16px 3px #0a0a0a;
@@ -148,7 +156,7 @@ body {
   border-bottom-right-radius: 20px;
 }
 
-.contactLink>h3 {
+.contactLink > h3 {
   padding-top: 1rem;
   margin: 0;
   color: #14283f;
@@ -205,7 +213,7 @@ body {
 
 /* ================================ */
 
-.links>a {
+.links > a {
   height: 2rem;
   border-radius: 10%;
 }
@@ -224,7 +232,7 @@ body {
   scroll-snap-align: start;
 }
 
-.container>h2 {
+.container > h2 {
   margin: 0;
   margin-top: 2rem;
   padding-left: 2rem;
@@ -232,7 +240,7 @@ body {
   color: rgba(255, 183, 2, 0.822);
 }
 
-.container>h5,
+.container > h5,
 h4 {
   margin: 0;
   background: var(--background-color);
@@ -245,25 +253,25 @@ h4 {
   font-size: 1.7rem;
 }
 
-.container>h3 {
+.container > h3 {
   color: #c4deff;
 }
 
-.container>p {
+.container > p {
   color: #c4deff;
   font-size: 1.2rem;
   padding: 1rem;
 }
 
-.container>p>a {
+.container > p > a {
   color: var(--white-color);
 }
 
-.container>p>a:visited {
+.container > p > a:visited {
   color: var(--white-color);
 }
 
-.container>a {
+.container > a {
   height: 3rem;
   background-color: #14283f;
   color: var(--white-color);
@@ -274,7 +282,7 @@ h4 {
   text-decoration: none;
   border-radius: 50px;
   margin-left: 1rem;
-  cursor: url("/images/pointer_cursor.png"), auto;
+  cursor: var(--cursor-mouse);
 }
 
 .about_header {
@@ -293,12 +301,12 @@ h4 {
   background-color: var(--dark-color);
 }
 
-.about_header>text {
+.about_header > text {
   color: var(--lite-green);
   font-size: x-large;
 }
 
-.about_header>h3 {
+.about_header > h3 {
   color: var(--white-color);
   margin-left: 1.1rem;
   font-size: 1.5rem;
@@ -316,7 +324,7 @@ h4 {
   height: fit-content;
 }
 
-.about>p {
+.about > p {
   text-align: justify;
   letter-spacing: 2px;
   text-transform: capitalize;
@@ -372,7 +380,7 @@ h4 {
   font-size: 1.2rem;
   text-align: center;
   transition: 0.5s;
-  cursor: url("/images/pointer_cursor.png"), auto;
+  cursor: var(--cursor-mouse);
 }
 
 .avtar {
@@ -382,7 +390,7 @@ h4 {
   margin-top: 2rem;
 }
 
-.avtar>img {
+.avtar > img {
   margin-top: 1rem;
   width: 40vw;
   filter: drop-shadow(2px 2px 3px var(--lite-green));
@@ -403,12 +411,15 @@ h4 {
   padding-bottom: 0.1rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: #173768a1;
+  /* background-color: #173768a1; */
   border-radius: 10px;
   scroll-snap-align: start;
 }
+.Projects:hover {
+  background-color: #173768a1;
+}
 
-.Projects>h3 {
+.Projects > h3 {
   color: var(--white-color);
   font-size: 1.2rem;
   background: -webkit-linear-gradient(306deg, #ffb800, #45a5d3, #5cf54f);
@@ -419,7 +430,7 @@ h4 {
   padding: 1rem;
 }
 
-.Projects>img {
+.Projects > img {
   width: 2rem;
   display: block;
   float: right;
@@ -427,7 +438,7 @@ h4 {
   margin-top: -3.5rem;
 }
 
-.Projects>ol>li {
+.Projects > ol > li {
   color: var(--white-color);
   list-style: disc;
   font-size: 1rem;
@@ -457,7 +468,7 @@ h4 {
   justify-content: space-around;
 }
 
-.Footer>a>img {
+.Footer > a > img {
   height: 3vh;
   border-radius: 50%;
   border: 1px solid var(--white-color);
