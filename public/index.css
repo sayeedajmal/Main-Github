@@ -321,6 +321,7 @@ h4 {
 
 .about {
   margin-top: 1rem;
+  line-height: 2rem;
   height: fit-content;
 }
 
@@ -386,14 +387,15 @@ h4 {
 .avtar {
   justify-content: center;
   display: flex;
-  margin-left: 10rem;
+  margin-left: 7rem;
   margin-top: 2rem;
 }
 
 .avtar > img {
   margin-top: 1rem;
   width: 40vw;
-  filter: drop-shadow(2px 2px 3px var(--lite-green));
+  border-radius: 10px;
+  filter: hue-rotate(45deg) drop-shadow(2px 2px 3px black);
 }
 
 .box {

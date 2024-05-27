@@ -184,7 +184,14 @@
 
   .avtar > img {
     width: 20vw;
-    margin-top: 0;
+    margin-right: 5rem;
+    filter: grayscale(1);
+    margin-top: -2rem;
+  }
+
+  .avtar > img:hover {
+    transition: 0.3s ease-in;
+    filter: grayscale(0) hue-rotate(45deg) ;
   }
 
   .box {
