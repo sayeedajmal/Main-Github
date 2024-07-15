@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import profile from "../images/profile.png";
+import Close from "../images/close.png";
+import Open from "../images/open.png";
+import resume from "../images/resume.jpg"
 
 const About = () => {
+  const [isPopupVisible, setPopupVisible] = useState(false);
+
+  const showPopup = () => {
+    setPopupVisible(true);
+    document.body.style.overflow = "hidden";
+  };
+
+  const closePopup = () => {
+    setPopupVisible(false);
+    document.body.style.overflow = "auto";
+  };
   return (
     <div className="container">
       <h2 style={{ fontSize: "2rem" }}>Hey, I am</h2>
@@ -49,6 +63,25 @@ const About = () => {
       >
         Github 👨🏻‍💻
       </a>
+      <a className="github" id="resume" onClick={showPopup}>
+        RESUME
+      </a>
+      {isPopupVisible && (
+        <div className="popup" id="popup" style={{ display: "flex" }}>
+          <div id="close_Panel">
+            <img
+              id="close_image"
+              style={{ height: "3rem" }}
+              onClick={closePopup}
+              src={Close}
+              alt="Close"
+            />
+          </div>
+          <div className="popup-content">
+            <img className="popup-image" src={resume} alt="Resume" />
+          </div>
+        </div>
+      )}
       <div class="about_header">
         <text>01.</text>
         <h4>About Me</h4>

@@ -1,8 +1,13 @@
 import React, { useState } from "react";
+import {
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaWhatsapp
+} from "react-icons/fa";
+import Close from "../images/close.png";
 import Logo from "../images/log.png";
 import Open from "../images/open.png";
-import Close from "../images/close.png";
-import { FaLinkedin } from "react-icons/fa";
 import sit_table from "../images/sit_table.gif";
 
 const Navbar = () => {
@@ -59,33 +64,21 @@ const Navbar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    className="icons"
-                    src="/images/instagram_black.png"
-                    alt="instagram"
-                  />
+                  <FaInstagram className="icons" />
                 </a>
                 <a
                   href="https://wa.me/919964716450"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    className="icons"
-                    src="/images/whatsapp-black.png"
-                    alt="whatsapp"
-                  />
+                  <FaWhatsapp className="icons" />
                 </a>
                 <a
                   href="https://github.com/sayeedajmal"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    className="icons"
-                    src="/images/github_black.png"
-                    alt="github"
-                  />
+                  <FaGithub className="icons" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/sayeedajmal/"

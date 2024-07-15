@@ -105,7 +105,6 @@ body {
   border-radius: 50%;
   background-color: var(--white-color);
   margin: 0.3rem;
-  position: absolute;
 }
 
 .close_Panel > img {
@@ -220,6 +219,7 @@ body {
 
 .icons {
   border-radius: 10%;
+  color: black;
   height: 2rem;
 }
 
