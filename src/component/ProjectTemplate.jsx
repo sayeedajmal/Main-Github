@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 
 const ProjectTemplate = ({ projectData }) => {
   return (

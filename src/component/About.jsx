@@ -81,21 +81,21 @@ const About = () => {
           </div>
         </div>
       )}
-      <div class="about_header">
+      <div className="about_header">
         <text>01.</text>
         <h4>About Me</h4>
         <br />
       </div>
 
-      <button class="gallery" href="">
+      <button className="gallery" href="">
         Gallery 🤍
       </button>
 
-      <div class="avtar">
+      <div className="avtar">
         <img src={profile} alt="profileImage" />
       </div>
 
-      <div class="about">
+      <div className="about">
         <p>
           I completed my <b>B.E. in CSE</b> in 2024, following a Diploma in
           <b>CSE</b>. My passion for creating things on the internet inspired me
