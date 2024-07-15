@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import profile from "../images/profile.png";
 import Close from "../images/close.png";
-import Open from "../images/open.png";
-import resume from "../images/resume.jpg"
+import profile from "../images/profile.png";
+import resume from "../images/resume.jpg";
 
 const About = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
@@ -55,17 +54,17 @@ const About = () => {
         that's configured with flexibility and security Integrated of JWT
         Authentication.
       </p>
-      <a
+      <button
         className="github"
         href="https://github.com/sayeedajmal"
         target="_blank"
         rel="noopener noreferrer"
       >
         Github 👨🏻‍💻
-      </a>
-      <a className="github" id="resume" onClick={showPopup}>
-        RESUME
-      </a>
+      </button>
+      <button className="github" id="resume" onClick={showPopup}>
+      button 👨🏻‍💻
+      </button>
       {isPopupVisible && (
         <div className="popup" id="popup" style={{ display: "flex" }}>
           <div id="close_Panel">
@@ -88,12 +87,12 @@ const About = () => {
         <br />
       </div>
 
-      <a class="gallery" href="">
+      <button class="gallery" href="">
         Gallery 🤍
-      </a>
+      </button>
 
       <div class="avtar">
-        <img src={profile} />
+        <img src={profile} alt="profileImage" />
       </div>
 
       <div class="about">

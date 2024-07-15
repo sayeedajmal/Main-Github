@@ -54,7 +54,7 @@
 
   /* TYPING ANIMATION */
   .container > h5 {
-    width: 16rem;
+    width: 16ch;
     overflow: hidden;
     border-right: 2px solid;
     animation: typing 2s steps(80), cursor_blink 0.7s step-end infinite;
@@ -101,7 +101,7 @@
     padding: 12px;
     font-size: 1rem;
     transition: 0.5s;
-    animation: heart 0.8s infinite;
+    animation: pulse 1.5s infinite;
   }
 
   .gallery {
@@ -110,11 +110,11 @@
   }
 
   @keyframes heart {
-    from {
+    50% {
       transform: scale(0.7);
     }
 
-    to {
+    100% {
       transform: (scale1);
     }
   }

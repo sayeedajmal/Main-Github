@@ -176,7 +176,7 @@ const App = () => {
   return (
     <div className="container">
       <Navbar />
-      <img class="userImage" src={table} />
+      <img class="userImage" src={table} alt="userImage"/>
       <About />
       <Skills />
       <div class="about_header">
