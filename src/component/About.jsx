@@ -27,7 +27,7 @@ const About = () => {
       <p>
         A Java FullStack Software Developer specializing in building exceptional
         digital experiences. Currently, I’m focused on building accessible
-        ConnectX
+        ConnectX{" "}
         <a
           href="https://github.com/sayeedajmal/Applications/raw/master/ConnectX/app-release.apk"
           target="_blank"
@@ -35,7 +35,7 @@ const About = () => {
         >
           v-2.2
         </a>
-        , QuranFy
+        , QuranFy{" "}
         <a
           href="https://github.com/sayeedajmal/Applications/raw/master/QuranFy/app-release.apk"
           target="_blank"
@@ -43,7 +43,7 @@ const About = () => {
         >
           v-2.5
         </a>{" "}
-        & BloodDonation-API
+        & BloodDonation-API{" "}
         <a
           href="https://github.com/sayeedajmal/BloodDonation"
           target="_blank"
@@ -63,7 +63,7 @@ const About = () => {
         Github 👨🏻‍💻
       </button>
       <button className="github" id="resume" onClick={showPopup}>
-      button 👨🏻‍💻
+        Resume 📖
       </button>
       {isPopupVisible && (
         <div className="popup" id="popup" style={{ display: "flex" }}>
