@@ -160,6 +160,9 @@ const projects = [
         {
           href: "https://github.com/sayeedajmal/Applications/raw/master/Forecast/app-release.apk",
           text: "Download",
+        },{
+          href: "https://cloudysayeed.web.app/",
+          text: "CloudySayeed",
         },
       ],
     },
