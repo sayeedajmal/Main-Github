@@ -1,5 +1,33 @@
 const projects = [
     {
+      title: "MyPortFolios",
+      imgSrc: myPortfolioImage,
+      altText: "MyPortFolio",
+      description: [
+        "Developed a personal portfolio website using ReactJS.",
+        "Utilized React hooks and state management for interactive and dynamic user experiences.",
+        "Implemented Sanity.io as the content management system to manage portfolio content seamlessly.",
+        "Styled the website using Tailwind CSS for a modern and responsive design.",
+        "Showcased various projects, skills, and experiences, providing detailed information about each.",
+        "Incorporated animations and transitions to enhance user engagement.",
+        "Optimized the website for performance and accessibility.",
+        "Implemented responsive design principles to ensure compatibility across different devices.",
+        "Integrated SEO best practices to improve the website's visibility on search engines.",
+        "Continuously updating and maintaining the portfolio with the latest projects and achievements.",
+        "Excited to share my work and journey through this portfolio. Explore the projects and learn more about my skills and experiences.",
+      ],
+      links: [
+        {
+          href: "https://sayeedthedev.web.app",
+          text: "SayeedTheDev 🌐",
+        },
+        {
+          href: "https://sayeedcodes.web.app/",
+          text: "SayeedCodes 💻",
+        },
+      ],
+    },
+    {
       title: "Blood Donation | API | WEB",
       imgSrc: bloodDonation,
       altText: "Blood Donation",
