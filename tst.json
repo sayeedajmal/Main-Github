@@ -18,7 +18,8 @@ const projects = [
         "Conducted thorough testing to validate functionality, security, and overall system stability.",
         "Documented the API for easy integration and future maintenance.",
         "Addressed challenges with innovative problem-solving and continuous improvement.",
-        "Excited to contribute to the healthcare ecosystem with the Blood Donation API? Download this Project and Start Running Setup.",
+        "Developed a web application using ReactJS, incorporating motion and hooks for a dynamic user experience.",
+        "Excited to contribute to the healthcare ecosystem with the Blood Donation API and web application? Download this Project and Start Running Setup.",
       ],
       links: [
         {
@@ -36,6 +37,10 @@ const projects = [
         {
           href: "https://github.com/sayeedajmal/BloodDonation/blob/Main/setup.sh",
           text: "Setup",
+        },
+        {
+          href: "https://bloodbysayeed.web.app/",
+          text: "Live Demo | Blood Donation Web App 🌐",
         },
       ],
     },
