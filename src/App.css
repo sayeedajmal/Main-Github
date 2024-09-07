@@ -264,7 +264,7 @@ h4 {
   color: var(--white-color);
 }
 
-.container > button {
+.container > button,.container > a {
   background-color: #14283f;
   color: var(--white-color);
   margin-top: 3rem;

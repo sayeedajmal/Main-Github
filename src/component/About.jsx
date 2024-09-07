@@ -2,13 +2,22 @@ import React, { useState } from "react";
 import Close from "../images/close.png";
 import profile from "../images/profile.png";
 import resume from "../images/resume.jpg";
-
+import Gallery from "./Gallery";
+import Model from "./Model";
 const About = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
-
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const showPopup = () => {
     setPopupVisible(true);
     document.body.style.overflow = "hidden";
+  };
+
+  const handleButtonClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
   };
 
   const closePopup = () => {
@@ -54,14 +63,14 @@ const About = () => {
         that's configured with flexibility and security Integrated of JWT
         Authentication.
       </p>
-      <button
+      <a
         className="github"
         href="https://github.com/sayeedajmal"
         target="_blank"
         rel="noopener noreferrer"
       >
         Github 👨🏻‍💻
-      </button>
+      </a>
       <button className="github" id="resume" onClick={showPopup}>
         Resume 📖
       </button>
@@ -87,9 +96,12 @@ const About = () => {
         <br />
       </div>
 
-      <button className="gallery" href="">
+      <button className="gallery" onClick={handleButtonClick}>
         Gallery 🤍
       </button>
+      <Model isOpen={isModalOpen} onClose={handleCloseModal}>
+        <Gallery />
+      </Model>
 
       <div className="avtar">
         <img src={profile} alt="profileImage" />

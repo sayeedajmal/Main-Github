@@ -1,7 +1,6 @@
 {
   "hosting": {
     "public": "build",
-    "site":"sayeedthedev",
     "ignore": [
       "firebase.json",
       "**/.*",
