@@ -4,14 +4,14 @@ import { fetchGallery } from "./fetchGallery";
 
 export default function Component() {
   const [photos, setPhotos] = useState([]);
-  const [selectedPhoto, setSelectedPhoto] = useState(null); // State for modal photo
+  const [selectedPhoto, setSelectedPhoto] = useState(null);
 
   useEffect(() => {
     fetchGallery().then((data) => {
       const fetchedPhotos = data.map((item) => ({
         id: item._id,
         url: urlFor(item.imgSrc).width(400).url(),
-        fullUrl: urlFor(item.imgSrc).url(), // URL for full-size image
+        fullUrl: urlFor(item.imgSrc).url(), 
         alt: item.altText,
         description: item.description,
         height: Math.floor(Math.random() * 200),
@@ -29,8 +29,7 @@ export default function Component() {
     backgroundColor: 'white',
     padding: '1rem',
     zIndex: 1000,
-    maxWidth: '90vw',
-    maxHeight: '90vh',
+    width:"60%",
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -79,7 +78,7 @@ export default function Component() {
 
   const imgStyle = {
     maxWidth: '100%',
-    maxHeight: '70vh', // Ensure the image doesn't exceed the screen height
+    maxHeight: '70vh',
     objectFit: 'contain',
   };
 
@@ -120,7 +119,7 @@ export default function Component() {
               src={avtar.url}
               alt={avtar.alt}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              onClick={() => setSelectedPhoto(avtar)} // Open modal on click
+              onClick={() => setSelectedPhoto(avtar)} 
             />
             <p>{avtar.description}</p>
           </div>

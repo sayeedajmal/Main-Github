@@ -1,4 +1,3 @@
-// Modal.js
 import React from 'react';
 
 const modalStyle = {
@@ -20,8 +19,6 @@ const modalContentStyle = {
   borderRadius: '0.5rem',
   boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
   position: 'relative',
-  maxWidth: '90vw',
-  maxHeight: '90vh',
   width: '100%',
   height: '100%',
   overflow: 'auto',
